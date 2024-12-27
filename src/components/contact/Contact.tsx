@@ -26,7 +26,7 @@ export const Contact = () => {
           </p>
         </Reveal>
         <Reveal width="w-full">
-          <Link href="mailto:bob.ross@notreal.com">
+          <Link href="mailto:agvms@cesar.school">
             <div className="flex items-center justify-center text-white gap-2 w-fit text-lg md:text-2xl whitespace-normal mx-auto hover:text-background transition-colors">
               <AiFillMail />
               <span>agvms@cesar.school</span>
