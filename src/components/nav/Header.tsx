@@ -1,14 +1,19 @@
 import Link from "next/link";
 import React from "react";
 import { SiGithub, SiLinkedin, SiWhatsapp } from "react-icons/si";
-import { OutlineButton } from "../buttons/OutlineButton";
 import EncryptButton from "./EncryptButton";
+import LanguageSwitch from "../ui/language-switch";
 
 export const Header = () => {
   return (
     <header className="h-[72px] px-4 flex items-center justify-between sticky top-0 z-20 bg-primary backdrop-blur-md">
       <MyLinks />
-      <EncryptButton onClick={() => window.open("/resumeandersongabriel.pdf")} />
+      <div className="flex items-center gap-4">
+        <LanguageSwitch />
+        <EncryptButton
+          onClick={() => window.open("/resumeandersongabriel.pdf")}
+        />
+      </div>
     </header>
   );
 };
@@ -39,6 +44,5 @@ export const MyLinks = () => (
     >
       <SiWhatsapp />
     </Link>
- 
   </div>
 );

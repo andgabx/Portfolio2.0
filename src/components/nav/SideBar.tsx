@@ -60,7 +60,7 @@ export const SideBar = () => {
         value="experience"
         href="#experience"
       >
-        Exp.
+        Experience
       </SideBarLink>
       <SideBarLink
         selected={selected}
