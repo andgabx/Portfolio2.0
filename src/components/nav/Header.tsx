@@ -11,7 +11,7 @@ export const Header = () => {
       <div className="flex items-center gap-4">
         <LanguageSwitch />
         <EncryptButton
-          onClick={() => window.open("/resumeandersongabriel.pdf")}
+          onClick={() => window.open("/ENGresumeandersongabriel.pdf")}
         />
       </div>
     </header>
