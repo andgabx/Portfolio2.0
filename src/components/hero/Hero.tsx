@@ -22,7 +22,7 @@ const Hero = () => {
           </Reveal>
           <Reveal>
             <p className="pointer-events-auto font-bold leading-relaxed md:leading-relaxed max-w-xl text-sm text-primary md:text-base">
-              As a seasoned front-end developer, I specialize in creating
+              As a seasoned full stack developer, I specialize in creating
               visually stunning and highly interactive user interfaces. With a
               keen eye for design and a deep understanding of modern web
               technologies, I transform complex ideas into intuitive and

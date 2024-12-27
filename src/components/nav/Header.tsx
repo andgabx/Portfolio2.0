@@ -1,15 +1,14 @@
 import Link from "next/link";
 import React from "react";
-import { SiCodepen, SiGithub, SiLinkedin, SiX } from "react-icons/si";
+import { SiGithub, SiLinkedin, SiWhatsapp } from "react-icons/si";
 import { OutlineButton } from "../buttons/OutlineButton";
+import EncryptButton from "./EncryptButton";
 
 export const Header = () => {
   return (
     <header className="h-[72px] px-4 flex items-center justify-between sticky top-0 z-20 bg-primary backdrop-blur-md">
       <MyLinks />
-      <OutlineButton onClick={() => window.open("/resumeandersongabriel.pdf")}>
-        My Resume
-      </OutlineButton>
+      <EncryptButton onClick={() => window.open("/resumeandersongabriel.pdf")} />
     </header>
   );
 };
@@ -34,19 +33,12 @@ export const MyLinks = () => (
     </Link>
     <Link
       className="text-zinc-300 hover:text-white transition-colors"
-      href="https://www.x.com"
+      href="https://wa.me/5581999758852"
       target="_blank"
       rel="nofollow"
     >
-      <SiX />
+      <SiWhatsapp />
     </Link>
-    <Link
-      className="text-zinc-300 hover:text-white transition-colors"
-      href="https://www.codepen.io"
-      target="_blank"
-      rel="nofollow"
-    >
-      <SiCodepen />
-    </Link>
+ 
   </div>
 );
