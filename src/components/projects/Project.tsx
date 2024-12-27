@@ -92,10 +92,10 @@ export const Project = ({
             </div>
           </Reveal>
           <Reveal>
-            <p className="text-zinc-300 leading-relaxed">
+            <p className="text-primary leading-relaxed">
               {description}{" "}
               <span
-                className="inline-block text-sm text-primary cursor-pointer"
+                className="inline-block font-bold text-sm text-primary-dark cursor-pointer"
                 onClick={() => setIsOpen(true)}
               >
                 Learn more {">"}

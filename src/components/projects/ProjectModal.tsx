@@ -67,14 +67,14 @@ export const ProjectModal = ({
           </div>
 
           <div>
-            <p className="font-bold mb-2 text-xl">
-              Project Links<span className="text-primary">.</span>
+            <p className="font-bold mb-2 text-xl text-white">
+              Project Links
             </p>
-            <div className="flex items-center gap-4 text-sm">
+            <div className="flex items-center gap-4 text-md">
               <Link
                 target="_blank"
                 rel="nofollow"
-                className="text-zinc-300 hover:text-indigo-300 transition-colors flex items-center gap-1"
+                className="text-slate-200 hover:text-white transition-colors flex items-center gap-1"
                 href={code}
               >
                 <AiFillGithub /> Source Code
@@ -82,7 +82,7 @@ export const ProjectModal = ({
               <Link
                 target="_blank"
                 rel="nofollow"
-                className="text-zinc-300 hover:text-indigo-300 transition-colors flex items-center gap-1"
+                className="text-slate-200 hover:text-white transition-colors flex items-center gap-1"
                 href={projectLink}
               >
                 <AiOutlineExport /> Live Project

@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
-import { FiLock } from "react-icons/fi";
 import { motion } from "framer-motion";
+import { Download } from "lucide-react";
 
 const TARGET_TEXT = "My Resume";
 const CYCLES_PER_LETTER = 3;
@@ -64,7 +64,7 @@ const EncryptButton = ({ onClick }: EncryptButtonProps) => {
       className="group relative overflow-hidden rounded-lg border-[1px] border-primary bg-background px-4 py-2 font-mono font-medium uppercase text-primary transition-colors hover:text-primary-dark"
     >
       <div className="relative z-10 flex items-center gap-2">
-        <FiLock />
+        <Download />
         <span>{text}</span>
       </div>
       <motion.span
