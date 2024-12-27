@@ -3,10 +3,16 @@ import React from "react";
 import { SiGithub, SiLinkedin, SiWhatsapp } from "react-icons/si";
 import EncryptButton from "./EncryptButton";
 import LanguageSwitch from "../ui/language-switch";
+import { motion } from "framer-motion";
 
 export const Header = () => {
   return (
-    <header className="h-[72px] px-4 flex items-center justify-between sticky top-0 z-20 bg-primary backdrop-blur-md">
+    <motion.header
+      initial={{ y: -70 }}
+      animate={{ y: 0 }}
+      transition={{ duration: 0.5 }}
+      className="h-[72px] px-4 flex items-center justify-between sticky top-0 z-20 bg-primary backdrop-blur-md"
+    >
       <MyLinks />
       <div className="flex items-center gap-4">
         <LanguageSwitch />
@@ -14,7 +20,7 @@ export const Header = () => {
           onClick={() => window.open("/ENGresumeandersongabriel.pdf")}
         />
       </div>
-    </header>
+    </motion.header>
   );
 };
 
