@@ -11,77 +11,79 @@
     "contact": "Contact"
   },
   "hero": {
-    "role": "I'm a",
+    "role": "I am",
     "position": "Full Stack Developer",
-    "description": "As a seasoned full stack developer, I specialize in creating visually stunning and highly interactive user interfaces. With a keen eye for design and a deep understanding of modern web technologies, I transform complex ideas into intuitive and engaging digital experiences.",
-    "contact": "Contact Me"
+    "description": "As a Full Stack Developer, I specialize in creating visually stunning and highly interactive user interfaces. With a keen eye for design and understanding of modern web technologies, I transform ideas into intuitive and engaging digital experiences.",
+    "contact": "Get in Touch"
   },
   "about": {
     "title": "About",
-    "firstParagraph": "Ever since I can remember, Computer Science has been my dream career. When I discovered the world of software development, I knew I had found my path. While hardware is cool, my passion has always leaned towards software, especially front-end development. There's something about seeing a beautifully crafted, responsive website that always caught my eye and made me want to create my own. Right now, I'm working on a really fun solo project, I'm trying to rebuild a School Management System. When I'm not coding, you'll probably find me on the mat practicing Brazilian Jiu-Jitsu, getting lost in a good book, or hanging out with friends.",
-    "secondParagraph": "I currently focused on building my skills in React, Next.js, Tailwind CSS, and TypeScript, also learning about the main technologies used in the backend, such as Node.js, Express, and PostgreSQL.",
+    "firstParagraph": "For as long as I can remember, Computer Science has been my dream career. When I discovered the world of software development, I knew I had found my path. While hardware is interesting, my passion has always leaned towards software, especially front-end development. There's something about seeing a beautifully built, responsive website that has always caught my attention and made me want to create my own. Currently, I'm working on a very interesting solo project, trying to rebuild a School Management System. When I'm not coding, you'll probably find me on the mat practicing Jiu-Jitsu, reading a good book, or hanging out with friends.",
+    "secondParagraph": "Currently, I'm focused on developing my skills in React, Next.js, Tailwind CSS, and TypeScript, as well as learning about the main technologies used in the backend, such as Node.js, Express, and PostgreSQL.",
     "mainTech": "Main Technologies",
     "otherTech": "Other Technologies"
   },
   "projects": {
     "title": "Projects",
-    "learnMore": "Learn more",
+    "learnMore": "Learn More",
     "projectLinks": "Project Links",
     "sourceCode": "Source Code",
     "liveProject": "Live Project",
     "financeAI": {
       "title": "Finance AI",
       "description": "A transaction manager for your personal finances with an AI assistant to help you manage your finances.",
-      "tech": [
-        "NextJS",
-        "React",
-        "Tailwind",
-        "Prisma",
-        "Clerk",
-        "Neon Postgres"
-      ],
-      "details": [
-        "Users can seamlessly register their transactions, whether it's an expense, income, or investment. Every entry can be categorized into user-defined groups, allowing for a clear breakdown of financial activities. If a mistake is made or a transaction is no longer relevant, the removal feature ensures the data stays clean and accurate.",
-        "The project also focuses on data visualization, allowing users to track their spending patterns, identify saving opportunities, and gain insights into their financial health through charts and summaries.",
-        "Every functionality of Finance AI was built with one goal in mind: empowering users to make informed financial decisions in an easy, efficient, and secure way."
-      ]
+      "tech0": "NextJS",
+      "tech1": "React",
+      "tech2": "Tailwind",
+      "tech3": "Prisma",
+      "tech4": "Clerk",
+      "tech5": "Neon Postgres",
+      "detail0": "Users can seamlessly record their transactions, whether it's an expense, income, or investment. Each entry can be categorized into user-defined groups, allowing for clear analysis of financial activities. If a mistake is made or a transaction is no longer relevant, the removal feature ensures data remains clean and accurate.",
+      "detail1": "The project also focuses on data visualization, allowing users to track their spending patterns, identify saving opportunities, and gain insights into their financial health through graphs and summaries.",
+      "detail2": "Every feature of Finance AI was built with one goal in mind: to empower users to make informed financial decisions in an easy, efficient, and secure way."
     },
     "retroGameList": {
       "title": "My RetroGameList",
-      "description": "A platform dedicated to retro gaming enthusiasts, allowing users to explore games, create personalized lists, interact in forums, and share reviews.",
-      "tech": ["HTML", "CSS", "JavaScript", "Tailwind", "Anime.js", "Azure"],
-      "details": [
-        "This website is a unique platform designed for retro gaming enthusiasts to connect, explore, and interact. Users can browse a curated collection of retro games and create personalized lists, such as \"Favorites\", \"Already Played\", and \"Want to Play\", to track their gaming preferences. Each game has its own dedicated page, featuring details, user reviews, and ratings, providing an engaging way to rediscover retro classics.",
-        "It also features a forum system, where users can participate in discussions, ask questions, and share their gaming experiences. Each game has its own forum, making it easy for players to connect and exchange insights specific to that title. Additionally, the website integrates interactive features such as modals for feedback on actions like adding or removing games from lists.",
-        "Designed with user experience in mind, the platform employs reusable components, a consistent visual design, and well-structured functionalities to ensure ease of use. This project serves as both a nostalgic space for retro gamers and a modern tool for community interaction and engagement."
-      ]
+      "description": "A platform dedicated to retro gaming enthusiasts, allowing users to explore games, create custom lists, interact in forums, and share reviews.",
+      "tech0": "HTML",
+      "tech1": "CSS",
+      "tech2": "JavaScript",
+      "tech3": "Tailwind",
+      "tech4": "Anime.js",
+      "tech5": "Azure",
+      "detail0": "This website is a unique platform designed for retro gaming enthusiasts to connect, explore, and interact. Users can browse through a curated collection of retro games and create custom lists like 'Favorites', 'Played', and 'Want to Play' to track their gaming preferences. Each game has its own dedicated page with details, user reviews, and ratings, providing an engaging way to rediscover retro classics.",
+      "detail1": "It also features a forum system where users can participate in discussions, ask questions, and share their gaming experiences. Each game has its own forum, making it easy for players to connect and share insights specific to that title. Additionally, the site integrates interactive features like modals for feedback on actions such as adding or removing games from lists.",
+      "detail2": "Designed with user experience in mind, the platform employs reusable components, consistent visual design, and well-structured functionalities to ensure ease of use. This project serves both as a nostalgic space for retro gamers and as a modern tool for community interaction and engagement."
     },
     "spaceInvaders": {
       "title": "Space Invaders",
-      "description": "A roguelike version of the classic game Space Invaders.",
-      "tech": ["Raylib", "C"],
-      "details": [
-        "We developed a roguelike version of the classic Space Invaders, where players face waves of enemies, level up, and gain upgrades until reaching the final boss.",
-        "The game introduces a selection of different ships, each with unique abilities, ensuring that every gameplay experience feels fresh and distinct. This twist combines the nostalgic charm of the original Space Invaders with modern roguelike elements such as procedural progression, randomized challenges, and strategic decision-making.",
-        "The result is an engaging experience that balances retro aesthetics with innovative mechanics, making it a must-play for both fans of the original and newcomers to the genre!"
-      ]
+      "description": "A roguelike version of the classic Space Invaders game.",
+      "tech0": "Raylib",
+      "tech1": "C",
+      "detail0": "We developed a roguelike version of the classic Space Invaders, where players face waves of enemies, level up, and gain upgrades until they reach the final boss.",
+      "detail1": "The game features a selection of different ships, each with unique abilities, ensuring that each gaming experience is new and distinct. This version combines the nostalgic charm of the original Space Invaders with modern roguelike elements such as procedural progression, random challenges, and strategic decision-making.",
+      "detail2": "The result is an engaging experience that balances retro aesthetics with innovative mechanics, making it a must-play for both fans of the original and newcomers to the genre!"
     }
   },
   "experience": {
     "title": "Experience",
-    "items": [
-      {
+    "items": {
+      "0": {
         "title": "Cais",
         "position": "Full Stack Developer",
         "time": "August 2024 - December 2024",
         "location": "Carpina, Pernambuco",
-        "description": "We were commissioned by Cais, a small group of farmers, to create a web application for managing their farm, which we named Rizoma. The app allowed users to organize, monitor, and edit information related to fields, soils, cultivated plants, and activities carried out in the rural environment. With constant feedback from our client and excellent communication from both our development and design teams, we achieved complete success in our solution.",
-        "tech": ["HTML", "Tailwind", "JavaScript", "Django", "Git"]
+        "description": "We were hired by Cais, a small group of farmers, to create a web application to manage their farm, which we named Rizoma. The application allowed users to organize, monitor, and edit information related to fields, soils, cultivated plants, and activities carried out in the rural environment. With constant feedback from our client and excellent communication from our development and design teams, we achieved total success in our solution.",
+        "tech0": "HTML",
+        "tech1": "Tailwind",
+        "tech2": "JavaScript",
+        "tech3": "Django",
+        "tech4": "Git"
       }
-    ]
+    }
   },
   "contact": {
-    "title": "Contact me!",
+    "title": "Get in touch!",
     "description": "Send me an email if you want to connect! You can also find me on",
     "linkedin": "Linkedin",
     "email": "agvms@cesar.school"
