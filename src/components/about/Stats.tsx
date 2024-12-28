@@ -1,15 +1,18 @@
 import { Chip } from "../util/Chip";
 import Reveal from "../util/Reveal";
 import { AiFillCode, AiFillSmile } from "react-icons/ai";
+import { useTranslations } from "next-intl";
 
 export const Stats = () => {
+  const t = useTranslations("about");
+
   return (
     <div className="relative">
       <Reveal>
         <div>
           <h4 className="flex items-center mb-6">
             <AiFillCode className="text-primary text-2xl" />
-            <span className="font-bold ml-2">Main Technologies</span>
+            <span className="font-bold ml-2">{t("mainTech")}</span>
           </h4>
           <div className="flex flex-wrap gap-2 mb-12">
             <Chip>TypeScript</Chip>
@@ -28,7 +31,7 @@ export const Stats = () => {
         <div>
           <h4 className="flex items-center mb-6">
             <AiFillSmile className="text-primary text-2xl" />
-            <span className="font-bold ml-2">Other Technologies</span>
+            <span className="font-bold ml-2">{t("otherTech")}</span>
           </h4>
           <div className="flex flex-wrap gap-2 mb-12">
             <Chip>C</Chip>

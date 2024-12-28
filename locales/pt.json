@@ -1,0 +1,89 @@
+{
+  "common": {
+    "title": "Meu Portfólio",
+    "description": "Bem-vindo ao meu portfólio",
+    "resume": "Meu Currículo"
+  },
+  "nav": {
+    "about": "Sobre",
+    "projects": "Projetos",
+    "experience": "Experiência",
+    "contact": "Contato"
+  },
+  "hero": {
+    "role": "Eu sou",
+    "position": "Desenvolvedor Full Stack",
+    "description": "Como desenvolvedor Full Stack, me especializo em criar interfaces de usuário visualmente impressionantes e altamente interativas. Com um olhar apurado para design e entendimento das tecnologias web mais modernas, transformo ideias em experiências digitais intuitivas e envolventes.",
+    "contact": "Entre em Contato"
+  },
+  "about": {
+    "title": "Sobre",
+    "firstParagraph": "Desde que me lembro, Ciência da Computação tem sido minha carreira dos sonhos. Quando descobri o mundo do desenvolvimento de software, soube que havia encontrado meu caminho. Embora hardware seja interessante, minha paixão sempre pendeu para o software, especialmente desenvolvimento front-end. Há algo sobre ver um site lindamente construído e responsivo que sempre chamou minha atenção e me fez querer criar o meu próprio. Atualmente, estou trabalhando em um projeto solo muito interessante, tentando reconstruir um Sistema de Gestão Escolar. Quando não estou programando, você provavelmente me encontrará no tatame praticando Jiu-Jitsu, lendo um bom livro ou saindo com amigos.",
+    "secondParagraph": "Atualmente estou focado em desenvolver minhas habilidades em React, Next.js, Tailwind CSS e TypeScript, além de aprender sobre as principais tecnologias utilizadas no backend, como Node.js, Express e PostgreSQL.",
+    "mainTech": "Principais Tecnologias",
+    "otherTech": "Outras Tecnologias"
+  },
+  "projects": {
+    "title": "Projetos",
+    "learnMore": "Saiba mais",
+    "projectLinks": "Links do Projeto",
+    "sourceCode": "Código Fonte",
+    "liveProject": "Projeto Online",
+    "financeAI": {
+      "title": "Finance AI",
+      "description": "Um gerenciador de transações para suas finanças pessoais com um assistente de IA para ajudar você a gerenciar suas finanças.",
+      "tech": [
+        "NextJS",
+        "React",
+        "Tailwind",
+        "Prisma",
+        "Clerk",
+        "Neon Postgres"
+      ],
+      "details": [
+        "Os usuários podem registrar suas transações de forma contínua, seja uma despesa, receita ou investimento. Cada entrada pode ser categorizada em grupos definidos pelo usuário, permitindo uma análise clara das atividades financeiras. Se um erro for cometido ou uma transação não for mais relevante, o recurso de remoção garante que os dados permaneçam limpos e precisos.",
+        "O projeto também se concentra na visualização de dados, permitindo que os usuários acompanhem seus padrões de gastos, identifiquem oportunidades de economia e obtenham insights sobre sua saúde financeira por meio de gráficos e resumos.",
+        "Cada funcionalidade do Finance AI foi construída com um objetivo em mente: capacitar os usuários a tomar decisões financeiras informadas de maneira fácil, eficiente e segura."
+      ]
+    },
+    "retroGameList": {
+      "title": "My RetroGameList",
+      "description": "Uma plataforma dedicada aos entusiastas de jogos retrô, permitindo que os usuários explorem jogos, criem listas personalizadas, interajam em fóruns e compartilhem avaliações.",
+      "tech": ["HTML", "CSS", "JavaScript", "Tailwind", "Anime.js", "Azure"],
+      "details": [
+        "Este site é uma plataforma única projetada para entusiastas de jogos retrô se conectarem, explorarem e interagirem. Os usuários podem navegar por uma coleção selecionada de jogos retrô e criar listas personalizadas, como \"Favoritos\", \"Já Joguei\" e \"Quero Jogar\", para acompanhar suas preferências de jogos. Cada jogo tem sua própria página dedicada, com detalhes, avaliações de usuários e classificações, proporcionando uma maneira envolvente de redescobrir clássicos retrô.",
+        "Também possui um sistema de fórum, onde os usuários podem participar de discussões, fazer perguntas e compartilhar suas experiências de jogo. Cada jogo tem seu próprio fórum, facilitando a conexão entre os jogadores e a troca de insights específicos daquele título. Além disso, o site integra recursos interativos como modais para feedback em ações como adicionar ou remover jogos das listas.",
+        "Projetado com a experiência do usuário em mente, a plataforma emprega componentes reutilizáveis, um design visual consistente e funcionalidades bem estruturadas para garantir facilidade de uso. Este projeto serve tanto como um espaço nostálgico para jogadores retrô quanto como uma ferramenta moderna para interação e engajamento da comunidade."
+      ]
+    },
+    "spaceInvaders": {
+      "title": "Space Invaders",
+      "description": "Uma versão roguelike do clássico jogo Space Invaders.",
+      "tech": ["Raylib", "C"],
+      "details": [
+        "Desenvolvemos uma versão roguelike do clássico Space Invaders, onde os jogadores enfrentam ondas de inimigos, sobem de nível e ganham melhorias até chegarem ao chefe final.",
+        "O jogo apresenta uma seleção de diferentes naves, cada uma com habilidades únicas, garantindo que cada experiência de jogo seja nova e distinta. Esta versão combina o charme nostálgico do Space Invaders original com elementos modernos de roguelike, como progressão procedural, desafios aleatórios e tomada de decisão estratégica.",
+        "O resultado é uma experiência envolvente que equilibra a estética retrô com mecânicas inovadoras, tornando-o imperdível tanto para fãs do original quanto para novatos no gênero!"
+      ]
+    }
+  },
+  "experience": {
+    "title": "Experiência",
+    "items": [
+      {
+        "title": "Cais",
+        "position": "Desenvolvedor Full Stack",
+        "time": "Agosto 2024 - Dezembro 2024",
+        "location": "Carpina, Pernambuco",
+        "description": "Fomos contratados pelo Cais, um pequeno grupo de agricultores, para criar uma aplicação web para gerenciar sua fazenda, que nomeamos Rizoma. O aplicativo permitia aos usuários organizar, monitorar e editar informações relacionadas a campos, solos, plantas cultivadas e atividades realizadas no ambiente rural. Com feedback constante do nosso cliente e excelente comunicação de nossas equipes de desenvolvimento e design, alcançamos sucesso total em nossa solução.",
+        "tech": ["HTML", "Tailwind", "JavaScript", "Django", "Git"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Entre em contato!",
+    "description": "Me envie um email se quiser se conectar! Você também pode me encontrar no",
+    "linkedin": "Linkedin",
+    "email": "agvms@cesar.school"
+  }
+}

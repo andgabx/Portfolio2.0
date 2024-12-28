@@ -2,9 +2,11 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { SideBarLink } from "./SideBarLink";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 export const SideBar = () => {
   const [selected, setSelected] = useState("");
+  const t = useTranslations("nav");
 
   useEffect(() => {
     const sections = document.querySelectorAll(".section-wrapper");
@@ -44,7 +46,7 @@ export const SideBar = () => {
         value="about"
         href="#about"
       >
-        About
+        {t("about")}
       </SideBarLink>
       <SideBarLink
         selected={selected}
@@ -52,7 +54,7 @@ export const SideBar = () => {
         value="projects"
         href="#projects"
       >
-        Projects
+        {t("projects")}
       </SideBarLink>
       <SideBarLink
         selected={selected}
@@ -60,7 +62,7 @@ export const SideBar = () => {
         value="experience"
         href="#experience"
       >
-        Experience
+        {t("experience")}
       </SideBarLink>
       <SideBarLink
         selected={selected}
@@ -68,7 +70,7 @@ export const SideBar = () => {
         value="contact"
         href="#contact"
       >
-        Contact
+        {t("contact")}
       </SideBarLink>
     </motion.nav>
   );

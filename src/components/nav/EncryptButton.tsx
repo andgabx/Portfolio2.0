@@ -1,8 +1,9 @@
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { Download } from "lucide-react";
+import { useRouter } from "next/router";
+import { useTranslations } from "next-intl";
 
-const TARGET_TEXT = "My Resume";
 const CYCLES_PER_LETTER = 3;
 const SHUFFLE_TIME = 30;
 
@@ -15,8 +16,20 @@ interface EncryptButtonProps {
 
 const EncryptButton = ({ onClick }: EncryptButtonProps) => {
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const router = useRouter();
+  const { locale } = router;
+  const t = useTranslations("common");
 
+  const TARGET_TEXT = t("resume");
   const [text, setText] = useState(TARGET_TEXT);
+
+  const handleDownload = () => {
+    const resumeFile =
+      locale === "en"
+        ? "ENGresumeandersongabriel.pdf"
+        : "resumeandersongabriel.pdf";
+    window.open(`/${resumeFile}`, "_blank");
+  };
 
   const scramble = () => {
     let pos = 0;
@@ -46,7 +59,6 @@ const EncryptButton = ({ onClick }: EncryptButtonProps) => {
 
   const stopScramble = () => {
     clearInterval(intervalRef.current || undefined);
-
     setText(TARGET_TEXT);
   };
 
@@ -58,7 +70,7 @@ const EncryptButton = ({ onClick }: EncryptButtonProps) => {
       whileTap={{
         scale: 0.975,
       }}
-      onClick={onClick}
+      onClick={handleDownload}
       onMouseEnter={scramble}
       onMouseLeave={stopScramble}
       className="group relative overflow-hidden rounded-lg border-[1px] border-primary bg-background px-4 py-2 font-mono font-medium uppercase text-primary transition-colors hover:text-primary-dark"

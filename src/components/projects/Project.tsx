@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
 import { ProjectModal } from "./ProjectModal";
 import Reveal from "../util/Reveal";
+import { useTranslations } from "next-intl";
 
 interface Props {
   modalContent: JSX.Element;
@@ -32,6 +33,8 @@ export const Project = ({
 
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
+
+  const t = useTranslations("projects");
 
   useEffect(() => {
     if (isInView) {
@@ -98,7 +101,7 @@ export const Project = ({
                 className="inline-block font-bold text-sm text-primary-dark cursor-pointer"
                 onClick={() => setIsOpen(true)}
               >
-                Learn more {">"}
+                {t("learnMore")} {">"}
               </span>
             </p>
           </Reveal>

@@ -1,8 +1,11 @@
 import Reveal from "../util/Reveal";
 import DotGrid from "./DotGrid";
 import { OutlineButton } from "../buttons/OutlineButton";
+import { useTranslations } from "next-intl";
 
 const Hero = () => {
+  const t = useTranslations("hero");
+
   return (
     <section className="text-slat-100 overflow-hidden py-24 md:py-32">
       <div className="relative">
@@ -14,19 +17,15 @@ const Hero = () => {
           </Reveal>
           <Reveal>
             <h2 className="pointer-events-auto my-2 text-xl sm:text-2xl text-primary md:my-4 md:text-4xl">
-              I'm a{" "}
+              {t("role")}{" "}
               <span className="font-semibold text-primary">
-                Full Stack Developer
+                {t("position")}
               </span>
             </h2>
           </Reveal>
           <Reveal>
             <p className="pointer-events-auto font-bold leading-relaxed md:leading-relaxed max-w-xl text-sm text-primary md:text-base">
-              As a seasoned full stack developer, I specialize in creating
-              visually stunning and highly interactive user interfaces. With a
-              keen eye for design and a deep understanding of modern web
-              technologies, I transform complex ideas into intuitive and
-              engaging digital experiences.
+              {t("description")}
             </p>
           </Reveal>
           <Reveal>
@@ -36,7 +35,7 @@ const Hero = () => {
               }}
               className="pointer-events-auto before:bg-primary-light hover:text-white hover:border-primary-light mt-4 bg-primary text-white border-primary md:mt-6"
             >
-              Contact Me
+              {t("contact")}
             </OutlineButton>
           </Reveal>
         </div>

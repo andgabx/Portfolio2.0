@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
+import { useTranslations } from "next-intl";
 
 interface Props {
   isOpen: boolean;
@@ -26,6 +27,8 @@ export const ProjectModal = ({
   code,
   tech,
 }: Props) => {
+  const t = useTranslations("projects");
+
   useEffect(() => {
     const body = document.querySelector("body");
 
@@ -41,7 +44,7 @@ export const ProjectModal = ({
       className="fixed inset-0 z-50 px-4 py-12 bg-primary-dark/50 backdrop-blur overflow-y-scroll flex justify-center cursor-pointer"
       onClick={() => setIsOpen(false)}
     >
-      <button className="absolute top-4 md:top-6 text-xl right-4">
+      <button className="absolute top-4 md:top-6 text-xl right-4 text-white">
         <MdClose />
       </button>
 
@@ -52,13 +55,13 @@ export const ProjectModal = ({
         className="w-full max-w-2xl h-fit rounded-lg overflow-hidden bg-primary-light shadow-lg cursor-auto"
       >
         <img
-          className="w-full"
+          className="w-full h-64 object-cover object-top"
           src={imgSrc}
           alt={`An image of the ${title} project.`}
         />
         <div className="p-8">
           <h4 className="text-3xl text-white font-bold mb-2">{title}</h4>
-          <div className="flex flex-wrap gap-2 text-sm text-white">
+          <div className="flex flex-wrap gap-2 text-sm text-white mb-6">
             {tech.join(" - ")}
           </div>
 
@@ -66,26 +69,26 @@ export const ProjectModal = ({
             {modalContent}
           </div>
 
-          <div>
-            <p className="font-bold mb-2 text-xl text-white">
-              Project Links
+          <div className="mt-8">
+            <p className="font-bold mb-4 text-xl text-white">
+              {t("projectLinks")}
             </p>
-            <div className="flex items-center gap-4 text-md">
+            <div className="flex items-center gap-6 text-md">
               <Link
                 target="_blank"
                 rel="nofollow"
-                className="text-slate-200 hover:text-white transition-colors flex items-center gap-1"
+                className="text-slate-200 hover:text-white transition-colors flex items-center gap-2"
                 href={code}
               >
-                <AiFillGithub /> Source Code
+                <AiFillGithub className="text-xl" /> {t("sourceCode")}
               </Link>
               <Link
                 target="_blank"
                 rel="nofollow"
-                className="text-slate-200 hover:text-white transition-colors flex items-center gap-1"
+                className="text-slate-200 hover:text-white transition-colors flex items-center gap-2"
                 href={projectLink}
               >
-                <AiOutlineExport /> Live Project
+                <AiOutlineExport className="text-xl" /> {t("liveProject")}
               </Link>
             </div>
           </div>
@@ -94,8 +97,7 @@ export const ProjectModal = ({
     </div>
   );
 
-  if (!isOpen) return <></>;
+  if (!isOpen) return null;
 
-  // @ts-ignore
-  return ReactDOM.createPortal(content, document.getElementById("root"));
+  return ReactDOM.createPortal(content, document.getElementById("root")!);
 };
