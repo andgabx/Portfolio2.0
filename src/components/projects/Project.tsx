@@ -26,14 +26,10 @@ export const Project = ({
   tech,
 }: Props) => {
   const [hovered, setHovered] = useState(false);
-
   const [isOpen, setIsOpen] = useState(false);
-
   const controls = useAnimation();
-
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
-
   const t = useTranslations("projects");
 
   useEffect(() => {

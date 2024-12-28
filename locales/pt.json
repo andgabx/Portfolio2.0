@@ -32,53 +32,55 @@
     "financeAI": {
       "title": "Finance AI",
       "description": "Um gerenciador de transações para suas finanças pessoais com um assistente de IA para ajudar você a gerenciar suas finanças.",
-      "tech": [
-        "NextJS",
-        "React",
-        "Tailwind",
-        "Prisma",
-        "Clerk",
-        "Neon Postgres"
-      ],
-      "details": [
-        "Os usuários podem registrar suas transações de forma contínua, seja uma despesa, receita ou investimento. Cada entrada pode ser categorizada em grupos definidos pelo usuário, permitindo uma análise clara das atividades financeiras. Se um erro for cometido ou uma transação não for mais relevante, o recurso de remoção garante que os dados permaneçam limpos e precisos.",
-        "O projeto também se concentra na visualização de dados, permitindo que os usuários acompanhem seus padrões de gastos, identifiquem oportunidades de economia e obtenham insights sobre sua saúde financeira por meio de gráficos e resumos.",
-        "Cada funcionalidade do Finance AI foi construída com um objetivo em mente: capacitar os usuários a tomar decisões financeiras informadas de maneira fácil, eficiente e segura."
-      ]
+      "tech0": "NextJS",
+      "tech1": "React",
+      "tech2": "Tailwind",
+      "tech3": "Prisma",
+      "tech4": "Clerk",
+      "tech5": "Neon Postgres",
+      "detail0": "Os usuários podem registrar suas transações de forma contínua, seja uma despesa, receita ou investimento. Cada entrada pode ser categorizada em grupos definidos pelo usuário, permitindo uma análise clara das atividades financeiras. Se um erro for cometido ou uma transação não for mais relevante, o recurso de remoção garante que os dados permaneçam limpos e precisos.",
+      "detail1": "O projeto também se concentra na visualização de dados, permitindo que os usuários acompanhem seus padrões de gastos, identifiquem oportunidades de economia e obtenham insights sobre sua saúde financeira por meio de gráficos e resumos.",
+      "detail2": "Cada funcionalidade do Finance AI foi construída com um objetivo em mente: capacitar os usuários a tomar decisões financeiras informadas de maneira fácil, eficiente e segura."
     },
     "retroGameList": {
       "title": "My RetroGameList",
       "description": "Uma plataforma dedicada aos entusiastas de jogos retrô, permitindo que os usuários explorem jogos, criem listas personalizadas, interajam em fóruns e compartilhem avaliações.",
-      "tech": ["HTML", "CSS", "JavaScript", "Tailwind", "Anime.js", "Azure"],
-      "details": [
-        "Este site é uma plataforma única projetada para entusiastas de jogos retrô se conectarem, explorarem e interagirem. Os usuários podem navegar por uma coleção selecionada de jogos retrô e criar listas personalizadas, como \"Favoritos\", \"Já Joguei\" e \"Quero Jogar\", para acompanhar suas preferências de jogos. Cada jogo tem sua própria página dedicada, com detalhes, avaliações de usuários e classificações, proporcionando uma maneira envolvente de redescobrir clássicos retrô.",
-        "Também possui um sistema de fórum, onde os usuários podem participar de discussões, fazer perguntas e compartilhar suas experiências de jogo. Cada jogo tem seu próprio fórum, facilitando a conexão entre os jogadores e a troca de insights específicos daquele título. Além disso, o site integra recursos interativos como modais para feedback em ações como adicionar ou remover jogos das listas.",
-        "Projetado com a experiência do usuário em mente, a plataforma emprega componentes reutilizáveis, um design visual consistente e funcionalidades bem estruturadas para garantir facilidade de uso. Este projeto serve tanto como um espaço nostálgico para jogadores retrô quanto como uma ferramenta moderna para interação e engajamento da comunidade."
-      ]
+      "tech0": "HTML",
+      "tech1": "CSS",
+      "tech2": "JavaScript",
+      "tech3": "Tailwind",
+      "tech4": "Anime.js",
+      "tech5": "Azure",
+      "detail0": "Este site é uma plataforma única projetada para entusiastas de jogos retrô se conectarem, explorarem e interagirem. Os usuários podem navegar por uma coleção selecionada de jogos retrô e criar listas personalizadas, como \"Favoritos\", \"Já Joguei\" e \"Quero Jogar\", para acompanhar suas preferências de jogos. Cada jogo tem sua própria página dedicada, com detalhes, avaliações de usuários e classificações, proporcionando uma maneira envolvente de redescobrir clássicos retrô.",
+      "detail1": "Também possui um sistema de fórum, onde os usuários podem participar de discussões, fazer perguntas e compartilhar suas experiências de jogo. Cada jogo tem seu próprio fórum, facilitando a conexão entre os jogadores e a troca de insights específicos daquele título. Além disso, o site integra recursos interativos como modais para feedback em ações como adicionar ou remover jogos das listas.",
+      "detail2": "Projetado com a experiência do usuário em mente, a plataforma emprega componentes reutilizáveis, um design visual consistente e funcionalidades bem estruturadas para garantir facilidade de uso. Este projeto serve tanto como um espaço nostálgico para jogadores retrô quanto como uma ferramenta moderna para interação e engajamento da comunidade."
     },
     "spaceInvaders": {
       "title": "Space Invaders",
       "description": "Uma versão roguelike do clássico jogo Space Invaders.",
-      "tech": ["Raylib", "C"],
-      "details": [
-        "Desenvolvemos uma versão roguelike do clássico Space Invaders, onde os jogadores enfrentam ondas de inimigos, sobem de nível e ganham melhorias até chegarem ao chefe final.",
-        "O jogo apresenta uma seleção de diferentes naves, cada uma com habilidades únicas, garantindo que cada experiência de jogo seja nova e distinta. Esta versão combina o charme nostálgico do Space Invaders original com elementos modernos de roguelike, como progressão procedural, desafios aleatórios e tomada de decisão estratégica.",
-        "O resultado é uma experiência envolvente que equilibra a estética retrô com mecânicas inovadoras, tornando-o imperdível tanto para fãs do original quanto para novatos no gênero!"
-      ]
+      "tech0": "Raylib",
+      "tech1": "C",
+      "detail0": "Desenvolvemos uma versão roguelike do clássico Space Invaders, onde os jogadores enfrentam ondas de inimigos, sobem de nível e ganham melhorias até chegarem ao chefe final.",
+      "detail1": "O jogo apresenta uma seleção de diferentes naves, cada uma com habilidades únicas, garantindo que cada experiência de jogo seja nova e distinta. Esta versão combina o charme nostálgico do Space Invaders original com elementos modernos de roguelike, como progressão procedural, desafios aleatórios e tomada de decisão estratégica.",
+      "detail2": "O resultado é uma experiência envolvente que equilibra a estética retrô com mecânicas inovadoras, tornando-o imperdível tanto para fãs do original quanto para novatos no gênero!"
     }
   },
   "experience": {
     "title": "Experiência",
-    "items": [
-      {
+    "items": {
+      "0": {
         "title": "Cais",
         "position": "Desenvolvedor Full Stack",
         "time": "Agosto 2024 - Dezembro 2024",
         "location": "Carpina, Pernambuco",
         "description": "Fomos contratados pelo Cais, um pequeno grupo de agricultores, para criar uma aplicação web para gerenciar sua fazenda, que nomeamos Rizoma. O aplicativo permitia aos usuários organizar, monitorar e editar informações relacionadas a campos, solos, plantas cultivadas e atividades realizadas no ambiente rural. Com feedback constante do nosso cliente e excelente comunicação de nossas equipes de desenvolvimento e design, alcançamos sucesso total em nossa solução.",
-        "tech": ["HTML", "Tailwind", "JavaScript", "Django", "Git"]
+        "tech0": "HTML",
+        "tech1": "Tailwind",
+        "tech2": "JavaScript",
+        "tech3": "Django",
+        "tech4": "Git"
       }
-    ]
+    }
   },
   "contact": {
     "title": "Entre em contato!",

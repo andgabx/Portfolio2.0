@@ -16,11 +16,27 @@ export const Projects = () => {
   const getProjectDetails = (
     key: "financeAI" | "retroGameList" | "spaceInvaders"
   ): ProjectDetails => {
+    // Obter detalhes numerados
+    const details = [];
+    let i = 0;
+    while (t.has(`${key}.detail${i}`)) {
+      details.push(t(`${key}.detail${i}`));
+      i++;
+    }
+
+    // Obter tecnologias numeradas
+    const tech = [];
+    i = 0;
+    while (t.has(`${key}.tech${i}`)) {
+      tech.push(t(`${key}.tech${i}`));
+      i++;
+    }
+
     return {
       title: t(`${key}.title`),
       description: t(`${key}.description`),
-      tech: t.raw(`${key}.tech`) as string[],
-      details: t.raw(`${key}.details`) as string[],
+      tech,
+      details,
     };
   };
 
@@ -55,7 +71,7 @@ export const Projects = () => {
       ...spaceInvadersDetails,
       imgSrc: "spaceinvaders.jpg",
       code: "https://github.com/andgabx/spaceinvaders",
-      projectLink: "{https://github.com/andgabx/spaceinvaders}",
+      projectLink: "https://github.com/andgabx/spaceinvaders",
       modalContent: createModalContent(spaceInvadersDetails.details),
     },
   ];
@@ -63,7 +79,6 @@ export const Projects = () => {
   return (
     <section className="section-wrapper" id="projects">
       <SectionHeader title={t("title")} dir="r" />
-
       <div className="grid gap-12 grid-cols-1 md:grid-cols-2">
         {projects.map((project) => {
           return <Project key={project.title} {...project} />;
@@ -72,3 +87,5 @@ export const Projects = () => {
     </section>
   );
 };
+
+export default Projects;
