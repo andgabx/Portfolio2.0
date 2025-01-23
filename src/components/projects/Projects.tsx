@@ -16,7 +16,6 @@ export const Projects = () => {
   const getProjectDetails = (
     key: "financeAI" | "retroGameList" | "spaceInvaders"
   ): ProjectDetails => {
-    // Obter detalhes numerados
     const details = [];
     let i = 0;
     while (t.has(`${key}.detail${i}`)) {
@@ -24,7 +23,6 @@ export const Projects = () => {
       i++;
     }
 
-    // Obter tecnologias numeradas
     const tech = [];
     i = 0;
     while (t.has(`${key}.tech${i}`)) {

@@ -4,9 +4,11 @@ import Reveal from "../util/Reveal";
 import { MyLinks } from "../nav/Header";
 import { Stats } from "./Stats";
 import { useTranslations } from "next-intl";
+import { useRouter } from "next/router";
 
 export const About = () => {
   const t = useTranslations("about");
+  const { locale } = useRouter();
 
   return (
     <section id="about" className="section-wrapper">
@@ -16,7 +18,7 @@ export const About = () => {
           <Reveal>
             <p className="leading-relaxed text-primary">
               <span className="bg-primary text-white py-2 px-3 rounded font-bold mr-1 float-left text-2xl">
-                E
+                {locale === "en" ? "F" : "D"}
               </span>
               {t("firstParagraph")}
             </p>

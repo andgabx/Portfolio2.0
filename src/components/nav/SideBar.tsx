@@ -29,49 +29,54 @@ export const SideBar = () => {
   }, []);
 
   return (
-    <motion.nav
-      initial={{ x: -70 }}
-      animate={{ x: 0 }}
-      transition={{ duration: 0.5 }}
-      className="no-scrollbar bg-primary-dark h-[calc(120vh-110px)] md:h-screen sticky top-0 left-0 z-20 flex flex-col items-center overflow-scroll text-white"
-    >
-      <span className="shrink-0 text-xl font-black leading-[1] size-10 flex items-center justify-center my-4">
-        <Link href="/">
-          AG<span className="text-white">.</span>
-        </Link>
-      </span>
-      <SideBarLink
-        selected={selected}
-        setSelected={setSelected}
-        value="about"
-        href="#about"
+    <>
+      <motion.nav
+        initial={{ x: -70 }}
+        animate={{ x: 0 }}
+        transition={{ duration: 0.5 }}
+        className="no-scrollbar bg-primary-dark fixed top-0 left-0 bottom-0 w-[70px] flex flex-col items-center overflow-y-auto text-white z-50"
       >
-        {t("about")}
-      </SideBarLink>
-      <SideBarLink
-        selected={selected}
-        setSelected={setSelected}
-        value="projects"
-        href="#projects"
-      >
-        {t("projects")}
-      </SideBarLink>
-      <SideBarLink
-        selected={selected}
-        setSelected={setSelected}
-        value="experience"
-        href="#experience"
-      >
-        {t("experience")}
-      </SideBarLink>
-      <SideBarLink
-        selected={selected}
-        setSelected={setSelected}
-        value="contact"
-        href="#contact"
-      >
-        {t("contact")}
-      </SideBarLink>
-    </motion.nav>
+        <span className="shrink-0 text-xl font-black leading-[1] size-10 flex items-center justify-center my-4">
+          <Link href="/">
+            AG<span className="text-white">.</span>
+          </Link>
+        </span>
+        <SideBarLink
+          selected={selected}
+          setSelected={setSelected}
+          value="about"
+          href="#about"
+        >
+          {t("about")}
+        </SideBarLink>
+        <SideBarLink
+          selected={selected}
+          setSelected={setSelected}
+          value="projects"
+          href="#projects"
+        >
+          {t("projects")}
+        </SideBarLink>
+        <SideBarLink
+          selected={selected}
+          setSelected={setSelected}
+          value="experience"
+          href="#experience"
+        >
+          {t("experience")}
+        </SideBarLink>
+        <SideBarLink
+          selected={selected}
+          setSelected={setSelected}
+          value="contact"
+          href="#contact"
+        >
+          {t("contact")}
+        </SideBarLink>
+      </motion.nav>
+      <div className="min-h-screen pl-[70px]">
+        {/* Este div vazio cria o espaço necessário */}
+      </div>
+    </>
   );
 };
