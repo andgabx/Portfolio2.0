@@ -26,8 +26,8 @@ const EncryptButton = ({ onClick }: EncryptButtonProps) => {
   const handleDownload = () => {
     const resumeFile =
       locale === "en"
-        ? "ENGresumeandersongabriel.pdf"
-        : "resumeandersongabriel.pdf";
+        ? "AndersonResumeENG.pdf"
+        : "AndersonResumePT.pdf";
     window.open(`/${resumeFile}`, "_blank");
   };
 
