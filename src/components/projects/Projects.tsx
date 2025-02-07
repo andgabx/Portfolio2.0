@@ -14,7 +14,7 @@ export const Projects = () => {
   const t = useTranslations("projects");
 
   const getProjectDetails = (
-    key: "financeAI" | "retroGameList" | "spaceInvaders"
+    key: "financeAI" | "retroGameList" | "spaceInvaders" 
   ): ProjectDetails => {
     const details = [];
     let i = 0;
@@ -41,6 +41,7 @@ export const Projects = () => {
   const financeAIDetails = getProjectDetails("financeAI");
   const retroGameListDetails = getProjectDetails("retroGameList");
   const spaceInvadersDetails = getProjectDetails("spaceInvaders");
+  
 
   const createModalContent = (details: string[]) => (
     <>
@@ -72,6 +73,7 @@ export const Projects = () => {
       projectLink: "https://github.com/andgabx/spaceinvaders",
       modalContent: createModalContent(spaceInvadersDetails.details),
     },
+    
   ];
 
   return (
