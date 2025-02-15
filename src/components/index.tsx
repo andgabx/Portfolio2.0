@@ -7,7 +7,7 @@ import { Projects } from "./projects/Projects";
 import { Experience } from "./experience/Experience";
 import { Contact } from "./contact/Contact";
 
-export const HomPage = () => {
+export const HomePage = () => {
   return (
     <div className="grid grid-cols-[54px_1fr]">
       <SideBar />

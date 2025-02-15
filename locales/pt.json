@@ -63,6 +63,15 @@
       "detail0": "Desenvolvemos uma versão roguelike do clássico Space Invaders, onde os jogadores enfrentam ondas de inimigos, sobem de nível e ganham melhorias até chegarem ao chefe final.",
       "detail1": "O jogo apresenta uma seleção de diferentes naves, cada uma com habilidades únicas, garantindo que cada experiência de jogo seja nova e distinta. Esta versão combina o charme nostálgico do Space Invaders original com elementos modernos de roguelike, como progressão procedural, desafios aleatórios e tomada de decisão estratégica.",
       "detail2": "O resultado é uma experiência envolvente que equilibra a estética retrô com mecânicas inovadoras, tornando-o imperdível tanto para fãs do original quanto para novatos no gênero!"
+    },
+    "agras": {
+      "title": "AGRAS (Em desenvolvimento)",
+      "description": "Um site para uma empresa de agraicultura.",
+      "tech0": "NextJS",
+      "tech1": "TypeScript",
+      "tech2": "Tailwind",
+      "tech3": "Supabase",
+      "detail0": "Este é um site simples para uma empresa do setor agrícola. Foi criado para mostrar os produtos e serviços da empresa a potenciais clientes. O site foi construído com NextJS, TypeScript, Tailwind e Supabase, e é totalmente responsivo."
     }
   },
   "experience": {
