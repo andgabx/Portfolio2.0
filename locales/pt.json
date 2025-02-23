@@ -72,7 +72,20 @@
       "tech2": "Tailwind",
       "tech3": "Supabase",
       "detail0": "Este é um site simples para uma empresa do setor agrícola. Foi criado para mostrar os produtos e serviços da empresa a potenciais clientes. O site foi construído com NextJS, TypeScript, Tailwind e Supabase, e é totalmente responsivo."
+    },
+    "mcdsimulator": {
+      "title": "Simulador de McDonald's",
+      "description": "Um simulador de McDonald's.",
+      "tech0": "React",
+      "tech1": "TypeScript",
+      "tech2": "Tailwind",
+      "tech3": "Prisma",
+      "tech4": "Neon Postgres",
+      "detail0": "Este projeto é um simulador simples para um restaurante de fast food. Permite aos usuários selecionar itens de um menu, adicioná-los ao carrinho e colocar um pedido. O simulador também inclui uma visualização da cozinha onde os funcionários podem ver pedidos recebidos e marcá-los como concluídos.",
+      "detail1": "O objetivo deste projeto foi criar uma interface de usuário fácil de usar que simula a experiência de pedir comida em um restaurante de fast food. Fornecendo uma representação visual do processo de pedido, os usuários podem navegar facilmente pelo menu, personalizar seu pedido e acompanhar o status do seu pedido em tempo real.",
+      "detail2": "O simulador foi construído com React, TypeScript, Tailwind, Prisma e Neon Postgres, e possui design responsivo, atualizações em tempo real e uma experiência de usuário simples e envolvente."
     }
+
   },
   "experience": {
     "title": "Experiência",

@@ -14,7 +14,7 @@ export const Projects = () => {
   const t = useTranslations("projects");
 
   const getProjectDetails = (
-    key: "financeAI" | "retroGameList" | "spaceInvaders" | "agras"
+    key: "financeAI" | "retroGameList" | "spaceInvaders" | "agras" | "mcdsimulator"
   ): ProjectDetails => {
     const details = [];
     let i = 0;
@@ -42,6 +42,7 @@ export const Projects = () => {
   const retroGameListDetails = getProjectDetails("retroGameList");
   const spaceInvadersDetails = getProjectDetails("spaceInvaders");
   const agrasDetails = getProjectDetails("agras");
+  const mcdsimulatorDetails = getProjectDetails("mcdsimulator");
 
   const createModalContent = (details: string[]) => (
     <>
@@ -54,32 +55,40 @@ export const Projects = () => {
   const projects = [
     {
       ...financeAIDetails,
-      imgSrc: "financeai.jpg",
+      imgSrc: "/financeai.jpg",
       code: "https://github.com/andgabx/FinanceApp",
       projectLink: "https://gabefinanceai.vercel.app/",
       modalContent: createModalContent(financeAIDetails.details),
     },
     {
       ...retroGameListDetails,
-      imgSrc: "myretrogamelist.jpg",
+      imgSrc: "/myretrogamelist.jpg",
       code: "https://github.com/andgabx/MyRetroGameList",
       projectLink: "https://myretrogamelist.azurewebsites.net/",
       modalContent: createModalContent(retroGameListDetails.details),
     },
     {
       ...spaceInvadersDetails,
-      imgSrc: "spaceinvaders.jpg",
+      imgSrc: "/spaceinvaders.jpg",
       code: "https://github.com/andgabx/spaceinvaders",
       projectLink: "https://github.com/andgabx/spaceinvaders",
       modalContent: createModalContent(spaceInvadersDetails.details),
     },
     {
+      ...mcdsimulatorDetails,
+      imgSrc: "/donalds.png",
+      code: "https://github.com/andgabx/donald-simulator",
+      projectLink: "https://gabemcdsimulator.vercel.app/fsw-donalds/",
+      modalContent: createModalContent(mcdsimulatorDetails.details),
+    },
+    {
       ...agrasDetails,
-      imgSrc: "agras.jpg",
+      imgSrc: "/agras.jpg",
       code: "https://github.com/andgabx/agras",
       projectLink: "https://github.com/andgabx/agras",
       modalContent: createModalContent(agrasDetails.details),
     },
+    
     
   ];
 

@@ -72,6 +72,18 @@
       "tech2": "Tailwind",
       "tech3": "Supabase",
       "detail0": "This is a simple website for a company in the agriculture sector. It was created to showcase the company's products and services to potential clients. The website is built with NextJS, TypeScript, Tailwind and Supabase, and is fully responsive."
+    },
+    "mcdsimulator": {
+      "title": "MC Donald's Simulator",
+      "description": "A simple simulator for a fast food restaurant.",
+      "tech0": "React",
+      "tech1": "TypeScript",
+      "tech2": "Tailwind",
+      "tech3": "Prisma",
+      "tech4": "Neon DB",
+      "detail0": "This project is a simple simulator for a fast food restaurant. It allows users to select items from a menu, add them to their cart, and place an order. The simulator also includes a kitchen view where employees can see incoming orders and mark them as completed.",
+      "detail1": "The goal of this project was to create a user-friendly interface that mimics the experience of ordering food at a fast food restaurant. By providing a visual representation of the ordering process, users can easily navigate the menu, customize their order, and track the status of their order in real-time.",
+      "detail2": "The simulator is built with React, TypeScript, Tailwind, Prisma and Neon Database, and features responsive design, real-time updates, and a simple yet engaging user experience."
     }
   },
   "experience": {

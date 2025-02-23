@@ -5,6 +5,7 @@ import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
 import { ProjectModal } from "./ProjectModal";
 import Reveal from "../util/Reveal";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 interface Props {
   modalContent: JSX.Element;
@@ -58,13 +59,15 @@ export const Project = ({
           onClick={() => setIsOpen(true)}
           className="w-full aspect-video bg-primary cursor-pointer relative rounded-lg overflow-hidden"
         >
-          <img
+          <Image
             src={imgSrc}
             alt={`An image of the ${title} project.`}
             style={{
               width: hovered ? "90%" : "85%",
               rotate: hovered ? "2deg" : "0deg",
             }}
+            width={1920}
+            height={1080}
             className="w-[85%] absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/4 transition-all rounded"
           />
         </div>
