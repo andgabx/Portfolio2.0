@@ -5,7 +5,7 @@ import Link from "next/link";
 import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
 import { useTranslations } from "next-intl";
-
+import Image from "next/image";
 interface Props {
   isOpen: boolean;
   setIsOpen: Function;
@@ -54,7 +54,7 @@ export const ProjectModal = ({
         onClick={(e) => e.stopPropagation()}
         className="w-full max-w-2xl h-fit rounded-lg overflow-hidden bg-primary-light shadow-lg cursor-auto"
       >
-        <img
+        <Image
           className="w-full h-64 object-cover object-top"
           src={imgSrc}
           alt={`An image of the ${title} project.`}
