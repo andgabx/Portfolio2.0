@@ -117,7 +117,7 @@
                 "title": "BRASFI",
                 "position": "Full Stack Developer",
                 "time": "January 2025 - June 2025",
-                "location": "Recife, Pernambuco",
+                "location": "Salvador, Bahia",
                 "description": "We were hired by BRASFI, a multidisciplinary alliance focused on sustainable finance and investments. Our goal was to develop a robust web platform to help them disseminate content on sustainable development to their members within specific communities. A key requirement was the implementation of a private, real-time chat, enabling efficient communication among members within their respective communities. Thanks to continuous client collaboration and effective communication from our development and design teams, we delivered a solution that directly supports BRASFI's mission to promote sustainable development.",
                 "tech0": "C#",
                 "tech1": "ASP.NET Core",
