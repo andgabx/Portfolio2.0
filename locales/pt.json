@@ -1,113 +1,132 @@
 {
-  "common": {
-    "title": "Meu Portfólio",
-    "description": "Bem-vindo ao meu portfólio",
-    "resume": "Meu Currículo"
-  },
-  "nav": {
-    "about": "Sobre",
-    "projects": "Projetos",
-    "experience": "Experiência",
-    "contact": "Contato"
-  },
-  "hero": {
-    "role": "Eu sou um",
-    "position": "Desenvolvedor Full Stack",
-    "description": "Como desenvolvedor Full Stack, me especializo em criar interfaces de usuário visualmente impressionantes e altamente interativas. Com um olhar apurado para design e entendimento das tecnologias web mais modernas, transformo ideias em experiências digitais intuitivas e envolventes.",
-    "contact": "Entre em Contato"
-  },
-  "about": {
-    "title": "Sobre",
-    "firstParagraph": "esde que me lembro, Ciência da Computação tem sido minha carreira dos sonhos. Quando descobri o mundo do desenvolvimento de software, soube que havia encontrado meu caminho. Embora hardware seja interessante, minha paixão sempre pendeu para o software, especialmente desenvolvimento front-end. Há algo sobre ver um site lindamente construído e responsivo que sempre chamou minha atenção e me fez querer criar o meu próprio. Atualmente, estou trabalhando em um projeto solo muito interessante, tentando reconstruir um Sistema de Gestão Escolar. Quando não estou programando, você provavelmente me encontrará no tatame praticando Jiu-Jitsu, lendo um bom livro ou saindo com amigos.",
-    "secondParagraph": "Atualmente estou focado em desenvolver minhas habilidades em React, Next.js, Tailwind CSS e TypeScript, além de aprender sobre as principais tecnologias utilizadas no backend, como Node.js, Express e PostgreSQL.",
-    "mainTech": "Principais Tecnologias",
-    "otherTech": "Outras Tecnologias"
-  },
-  "projects": {
-    "title": "Projetos",
-    "learnMore": "Saiba mais",
-    "projectLinks": "Links do Projeto",
-    "sourceCode": "Código Fonte",
-    "liveProject": "Projeto Online",
-    "financeAI": {
-      "title": "Finance AI",
-      "description": "Um gerenciador de transações para suas finanças pessoais com um assistente de IA para ajudar você a gerenciar suas finanças.",
-      "tech0": "NextJS",
-      "tech1": "React",
-      "tech2": "Tailwind",
-      "tech3": "Prisma",
-      "tech4": "Clerk",
-      "tech5": "Neon Postgres",
-      "detail0": "Os usuários podem registrar suas transações de forma contínua, seja uma despesa, receita ou investimento. Cada entrada pode ser categorizada em grupos definidos pelo usuário, permitindo uma análise clara das atividades financeiras. Se um erro for cometido ou uma transação não for mais relevante, o recurso de remoção garante que os dados permaneçam limpos e precisos.",
-      "detail1": "O projeto também se concentra na visualização de dados, permitindo que os usuários acompanhem seus padrões de gastos, identifiquem oportunidades de economia e obtenham insights sobre sua saúde financeira por meio de gráficos e resumos.",
-      "detail2": "Cada funcionalidade do Finance AI foi construída com um objetivo em mente: capacitar os usuários a tomar decisões financeiras informadas de maneira fácil, eficiente e segura."
+    "common": {
+        "title": "Meu Portfólio",
+        "description": "Bem-vindo ao meu portfólio",
+        "resume": "Meu Currículo"
     },
-    "retroGameList": {
-      "title": "My RetroGameList",
-      "description": "Uma plataforma dedicada aos entusiastas de jogos retrô, permitindo que os usuários explorem jogos, criem listas personalizadas, interajam em fóruns e compartilhem avaliações.",
-      "tech0": "HTML",
-      "tech1": "CSS",
-      "tech2": "JavaScript",
-      "tech3": "Tailwind",
-      "tech4": "Anime.js",
-      "tech5": "Azure",
-      "detail0": "Este site é uma plataforma única projetada para entusiastas de jogos retrô se conectarem, explorarem e interagirem. Os usuários podem navegar por uma coleção selecionada de jogos retrô e criar listas personalizadas, como \"Favoritos\", \"Já Joguei\" e \"Quero Jogar\", para acompanhar suas preferências de jogos. Cada jogo tem sua própria página dedicada, com detalhes, avaliações de usuários e classificações, proporcionando uma maneira envolvente de redescobrir clássicos retrô.",
-      "detail1": "Também possui um sistema de fórum, onde os usuários podem participar de discussões, fazer perguntas e compartilhar suas experiências de jogo. Cada jogo tem seu próprio fórum, facilitando a conexão entre os jogadores e a troca de insights específicos daquele título. Além disso, o site integra recursos interativos como modais para feedback em ações como adicionar ou remover jogos das listas.",
-      "detail2": "Projetado com a experiência do usuário em mente, a plataforma emprega componentes reutilizáveis, um design visual consistente e funcionalidades bem estruturadas para garantir facilidade de uso. Este projeto serve tanto como um espaço nostálgico para jogadores retrô quanto como uma ferramenta moderna para interação e engajamento da comunidade."
+    "nav": {
+        "about": "Sobre",
+        "projects": "Projetos",
+        "experience": "Experiência",
+        "contact": "Contato"
     },
-    "spaceInvaders": {
-      "title": "Space Invaders",
-      "description": "Uma versão roguelike do clássico jogo Space Invaders.",
-      "tech0": "Raylib",
-      "tech1": "C",
-      "detail0": "Desenvolvemos uma versão roguelike do clássico Space Invaders, onde os jogadores enfrentam ondas de inimigos, sobem de nível e ganham melhorias até chegarem ao chefe final.",
-      "detail1": "O jogo apresenta uma seleção de diferentes naves, cada uma com habilidades únicas, garantindo que cada experiência de jogo seja nova e distinta. Esta versão combina o charme nostálgico do Space Invaders original com elementos modernos de roguelike, como progressão procedural, desafios aleatórios e tomada de decisão estratégica.",
-      "detail2": "O resultado é uma experiência envolvente que equilibra a estética retrô com mecânicas inovadoras, tornando-o imperdível tanto para fãs do original quanto para novatos no gênero!"
-    },
-    "agras": {
-      "title": "AGRAS (Em desenvolvimento)",
-      "description": "Um site para uma empresa de agraicultura.",
-      "tech0": "NextJS",
-      "tech1": "TypeScript",
-      "tech2": "Tailwind",
-      "tech3": "Supabase",
-      "detail0": "Este é um site simples para uma empresa do setor agrícola. Foi criado para mostrar os produtos e serviços da empresa a potenciais clientes. O site foi construído com NextJS, TypeScript, Tailwind e Supabase, e é totalmente responsivo."
-    },
-    "mcdsimulator": {
-      "title": "Simulador de McDonald's",
-      "description": "Um simulador de McDonald's.",
-      "tech0": "React",
-      "tech1": "TypeScript",
-      "tech2": "Tailwind",
-      "tech3": "Prisma",
-      "tech4": "Neon Postgres",
-      "detail0": "Este projeto é um simulador simples para um restaurante de fast food. Permite aos usuários selecionar itens de um menu, adicioná-los ao carrinho e colocar um pedido. O simulador também inclui uma visualização da cozinha onde os funcionários podem ver pedidos recebidos e marcá-los como concluídos.",
-      "detail1": "O objetivo deste projeto foi criar uma interface de usuário fácil de usar que simula a experiência de pedir comida em um restaurante de fast food. Fornecendo uma representação visual do processo de pedido, os usuários podem navegar facilmente pelo menu, personalizar seu pedido e acompanhar o status do seu pedido em tempo real.",
-      "detail2": "O simulador foi construído com React, TypeScript, Tailwind, Prisma e Neon Postgres, e possui design responsivo, atualizações em tempo real e uma experiência de usuário simples e envolvente."
-    }
-
-  },
-  "experience": {
-    "title": "Experiência",
-    "items": {
-      "0": {
-        "title": "Cais",
+    "hero": {
+        "role": "Eu sou um",
         "position": "Desenvolvedor Full Stack",
-        "time": "Agosto 2024 - Dezembro 2024",
-        "location": "Carpina, Pernambuco",
-        "description": "Fomos contratados pelo Cais, um pequeno grupo de agricultores, para criar uma aplicação web para gerenciar sua fazenda, que nomeamos Rizoma. O aplicativo permitia aos usuários organizar, monitorar e editar informações relacionadas a campos, solos, plantas cultivadas e atividades realizadas no ambiente rural. Com feedback constante do nosso cliente e excelente comunicação de nossas equipes de desenvolvimento e design, alcançamos sucesso total em nossa solução.",
-        "tech0": "HTML",
-        "tech1": "Tailwind",
-        "tech2": "JavaScript",
-        "tech3": "Django",
-        "tech4": "Git"
-      }
+        "description": "Como desenvolvedor Full Stack, me especializo em criar interfaces de usuário visualmente impressionantes e altamente interativas. Com um olhar apurado para design e entendimento das tecnologias web mais modernas, transformo ideias em experiências digitais intuitivas e envolventes.",
+        "contact": "Entre em Contato"
+    },
+    "about": {
+        "title": "Sobre",
+        "firstParagraph": "esde que me lembro, Ciência da Computação tem sido minha carreira dos sonhos. Quando descobri o mundo do desenvolvimento de software, soube que havia encontrado meu caminho. Embora hardware seja interessante, minha paixão sempre pendeu para o software, especialmente desenvolvimento front-end. Há algo sobre ver um site lindamente construído e responsivo que sempre chamou minha atenção e me fez querer criar o meu próprio. Atualmente, estou trabalhando em um projeto solo muito interessante, tentando reconstruir um Sistema de Gestão Escolar. Quando não estou programando, você provavelmente me encontrará no tatame praticando Jiu-Jitsu, lendo um bom livro ou saindo com amigos.",
+        "secondParagraph": "Atualmente estou focado em desenvolver minhas habilidades em React, Next.js, Tailwind CSS e TypeScript, além de aprender sobre as principais tecnologias utilizadas no backend, como Node.js, Express e PostgreSQL.",
+        "mainTech": "Principais Tecnologias",
+        "otherTech": "Outras Tecnologias"
+    },
+    "projects": {
+        "title": "Projetos",
+        "learnMore": "Saiba mais",
+        "projectLinks": "Links do Projeto",
+        "sourceCode": "Código Fonte",
+        "liveProject": "Projeto Online",
+        "financeAI": {
+            "title": "Finance AI",
+            "description": "Um gerenciador de transações para suas finanças pessoais com um assistente de IA para ajudar você a gerenciar suas finanças.",
+            "tech0": "NextJS",
+            "tech1": "React",
+            "tech2": "Tailwind",
+            "tech3": "Prisma",
+            "tech4": "Clerk",
+            "tech5": "Neon Postgres",
+            "detail0": "Os usuários podem registrar suas transações de forma contínua, seja uma despesa, receita ou investimento. Cada entrada pode ser categorizada em grupos definidos pelo usuário, permitindo uma análise clara das atividades financeiras. Se um erro for cometido ou uma transação não for mais relevante, o recurso de remoção garante que os dados permaneçam limpos e precisos.",
+            "detail1": "O projeto também se concentra na visualização de dados, permitindo que os usuários acompanhem seus padrões de gastos, identifiquem oportunidades de economia e obtenham insights sobre sua saúde financeira por meio de gráficos e resumos.",
+            "detail2": "Cada funcionalidade do Finance AI foi construída com um objetivo em mente: capacitar os usuários a tomar decisões financeiras informadas de maneira fácil, eficiente e segura."
+        },
+        "retroGameList": {
+            "title": "My RetroGameList",
+            "description": "Uma plataforma dedicada aos entusiastas de jogos retrô, permitindo que os usuários explorem jogos, criem listas personalizadas, interajam em fóruns e compartilhem avaliações.",
+            "tech0": "HTML",
+            "tech1": "CSS",
+            "tech2": "JavaScript",
+            "tech3": "Tailwind",
+            "tech4": "Anime.js",
+            "tech5": "Azure",
+            "detail0": "Este site é uma plataforma única projetada para entusiastas de jogos retrô se conectarem, explorarem e interagirem. Os usuários podem navegar por uma coleção selecionada de jogos retrô e criar listas personalizadas, como \"Favoritos\", \"Já Joguei\" e \"Quero Jogar\", para acompanhar suas preferências de jogos. Cada jogo tem sua própria página dedicada, com detalhes, avaliações de usuários e classificações, proporcionando uma maneira envolvente de redescobrir clássicos retrô.",
+            "detail1": "Também possui um sistema de fórum, onde os usuários podem participar de discussões, fazer perguntas e compartilhar suas experiências de jogo. Cada jogo tem seu próprio fórum, facilitando a conexão entre os jogadores e a troca de insights específicos daquele título. Além disso, o site integra recursos interativos como modais para feedback em ações como adicionar ou remover jogos das listas.",
+            "detail2": "Projetado com a experiência do usuário em mente, a plataforma emprega componentes reutilizáveis, um design visual consistente e funcionalidades bem estruturadas para garantir facilidade de uso. Este projeto serve tanto como um espaço nostálgico para jogadores retrô quanto como uma ferramenta moderna para interação e engajamento da comunidade."
+        },
+        "spaceInvaders": {
+            "title": "Space Invaders",
+            "description": "Uma versão roguelike do clássico jogo Space Invaders.",
+            "tech0": "Raylib",
+            "tech1": "C",
+            "detail0": "Desenvolvemos uma versão roguelike do clássico Space Invaders, onde os jogadores enfrentam ondas de inimigos, sobem de nível e ganham melhorias até chegarem ao chefe final.",
+            "detail1": "O jogo apresenta uma seleção de diferentes naves, cada uma com habilidades únicas, garantindo que cada experiência de jogo seja nova e distinta. Esta versão combina o charme nostálgico do Space Invaders original com elementos modernos de roguelike, como progressão procedural, desafios aleatórios e tomada de decisão estratégica.",
+            "detail2": "O resultado é uma experiência envolvente que equilibra a estética retrô com mecânicas inovadoras, tornando-o imperdível tanto para fãs do original quanto para novatos no gênero!"
+        },
+        "agras": {
+            "title": "AGRAS (Em desenvolvimento)",
+            "description": "Um site para uma empresa de agraicultura.",
+            "tech0": "NextJS",
+            "tech1": "TypeScript",
+            "tech2": "Tailwind",
+            "tech3": "Supabase",
+            "detail0": "Este é um site simples para uma empresa do setor agrícola. Foi criado para mostrar os produtos e serviços da empresa a potenciais clientes. O site foi construído com NextJS, TypeScript, Tailwind e Supabase, e é totalmente responsivo."
+        },
+        "mcdsimulator": {
+            "title": "Simulador de McDonald's",
+            "description": "Um simulador de McDonald's.",
+            "tech0": "React",
+            "tech1": "TypeScript",
+            "tech2": "Tailwind",
+            "tech3": "Prisma",
+            "tech4": "Neon Postgres",
+            "detail0": "Este projeto é um simulador simples para um restaurante de fast food. Permite aos usuários selecionar itens de um menu, adicioná-los ao carrinho e colocar um pedido. O simulador também inclui uma visualização da cozinha onde os funcionários podem ver pedidos recebidos e marcá-los como concluídos.",
+            "detail1": "O objetivo deste projeto foi criar uma interface de usuário fácil de usar que simula a experiência de pedir comida em um restaurante de fast food. Fornecendo uma representação visual do processo de pedido, os usuários podem navegar facilmente pelo menu, personalizar seu pedido e acompanhar o status do seu pedido em tempo real.",
+            "detail2": "O simulador foi construído com React, TypeScript, Tailwind, Prisma e Neon Postgres, e possui design responsivo, atualizações em tempo real e uma experiência de usuário simples e envolvente."
+        },
+        "BRASFI": {
+            "title": "Perenne",
+            "description": "Uma plataforma de comunidade escalável.",
+            "tech0": "NextJS",
+            "tech1": "TypeScript",
+            "tech2": "Tailwind",
+            "tech3": "C#",
+            "tech4": "ASP.NET Core",
+            "tech5": "Entity Framework Core",
+            "tech6": "PostgreSQL",
+            "tech7": "Docker",
+            "detail0": "Uma plataforma de comunidade modular e escalável. Ela foi criada para gerenciar grupos, permitir comunicação em tempo real via chat, além de organizar informações com feeds de notícias e eventos. A Perenne inclui funcionalidades de moderação de usuários e um robusto sistema de autenticação e gerenciamento de grupos. Futuramente, planejamos adicionar mais reações, enquetes, eventos com lembretes, notificações avançadas e uploads de arquivos multimídia. "
+        }
+    },
+    "experience": {
+        "title": "Experiência",
+        "items": {
+            "0": {
+                "title": "Cais",
+                "position": "Desenvolvedor Full Stack",
+                "time": "Agosto 2024 - Dezembro 2024",
+                "location": "Carpina, Pernambuco",
+                "description": "Fomos contratados pelo Cais, um pequeno grupo de agricultores, para criar uma aplicação web para gerenciar sua fazenda, que nomeamos Rizoma. O aplicativo permitia aos usuários organizar, monitorar e editar informações relacionadas a campos, solos, plantas cultivadas e atividades realizadas no ambiente rural. Com feedback constante do nosso cliente e excelente comunicação de nossas equipes de desenvolvimento e design, alcançamos sucesso total em nossa solução.",
+                "tech0": "HTML",
+                "tech1": "Tailwind",
+                "tech2": "JavaScript",
+                "tech3": "Django",
+                "tech4": "Git"
+            },
+            "1": {
+                "title": "BRASFI",
+                "position": "Desenvolvedor Full Stack",
+                "time": "Janeiro 2025 - Junho 2025",
+                "location": "Recife, Pernambuco",
+                "description": "Fomos contratados pela BRASFI, uma aliança multidisciplinar focada em finanças e investimentos sustentáveis. Nosso objetivo foi desenvolver uma plataforma web robusta para que pudessem divulgar conteúdo sobre desenvolvimento sustentável para seus membros em comunidades específicas. Um requisito chave foi a implementação de um chat privado e em tempo real, permitindo a comunicação eficiente entre os membros dentro de suas respectivas comunidades. Graças à colaboração contínua do cliente e à comunicação eficaz de nossas equipes de desenvolvimento e design, entregamos uma solução que apoia diretamente a missão da BRASFI de promover o desenvolvimento sustentável."
+            }
+        }
+    },
+    "contact": {
+        "title": "Entre em contato!",
+        "description": "Me envie um email se quiser se conectar! Você também pode me encontrar no",
+        "linkedin": "Linkedin",
+        "email": "agvms@cesar.school"
     }
-  },
-  "contact": {
-    "title": "Entre em contato!",
-    "description": "Me envie um email se quiser se conectar! Você também pode me encontrar no",
-    "linkedin": "Linkedin",
-    "email": "agvms@cesar.school"
-  }
 }

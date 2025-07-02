@@ -14,7 +14,7 @@ export const Projects = () => {
   const t = useTranslations("projects");
 
   const getProjectDetails = (
-    key: "financeAI" | "retroGameList" | "spaceInvaders" | "agras" | "mcdsimulator"
+    key: "financeAI" | "retroGameList" | "spaceInvaders" | "agras" | "mcdsimulator" | "BRASFI"
   ): ProjectDetails => {
     const details = [];
     let i = 0;
@@ -43,6 +43,7 @@ export const Projects = () => {
   const spaceInvadersDetails = getProjectDetails("spaceInvaders");
   const agrasDetails = getProjectDetails("agras");
   const mcdsimulatorDetails = getProjectDetails("mcdsimulator");
+  const brasfiDetails = getProjectDetails("BRASFI");
 
   const createModalContent = (details: string[]) => (
     <>
@@ -88,8 +89,13 @@ export const Projects = () => {
       projectLink: "https://github.com/andgabx/agras",
       modalContent: createModalContent(agrasDetails.details),
     },
-    
-    
+    {
+      ...brasfiDetails,
+      imgSrc: "/brasfi.png",
+      code: "https://github.com/filipe-ms/Perenne-Backend",
+      projectLink: "https://perenne-gray.vercel.app/",
+      modalContent: createModalContent(brasfiDetails.details),
+    },
   ];
 
   return (

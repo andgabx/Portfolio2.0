@@ -58,6 +58,8 @@ export const ProjectModal = ({
           className="w-full h-64 object-cover object-top"
           src={imgSrc}
           alt={`An image of the ${title} project.`}
+          width={1000}
+          height={1000}
         />
         <div className="p-8">
           <h4 className="text-3xl text-white font-bold mb-2">{title}</h4>
