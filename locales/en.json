@@ -126,6 +126,16 @@
                 "tech4": "Next.js",
                 "tech5": "TypeScript",
                 "tech6": "Tailwind"
+            },
+            "2": {
+                "title": "CESAR",
+                "position": "Full Stack Developer Intern",
+                "time": "August 2025 - Present",
+                "location": "Recife, Pernambuco",
+                "description": "I work at CESAR, a nationally recognized innovation and education organization. As a Full Stack Developer, I contribute to the development of innovative technological solutions, working with mobile technologies and low-level systems. CESAR's dynamic and collaborative environment allows me to participate in challenging projects, from mobile applications to embedded systems, always focusing on quality, innovation, and development best practices.",
+                "tech0": "Swift",
+                "tech1": "Kotlin",
+                "tech2": "C"
             }
         }
     },
