@@ -29,6 +29,8 @@
         "projectLinks": "Project Links",
         "sourceCode": "Source Code",
         "liveProject": "Live Project",
+        "showAll": "Show all projects",
+        "showLess": "Show less projects",
         "financeAI": {
             "title": "Finance AI",
             "description": "A transaction manager for your personal finances with an AI assistant to help you manage your finances.",

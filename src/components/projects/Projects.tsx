@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { SectionHeader } from "../util/SectionHeader";
 import { Project } from "./Project";
 import { useTranslations } from "next-intl";
+import { ShowMoreButton } from "./ShowMoreButton";
 
 interface ProjectDetails {
   title: string;
@@ -12,6 +13,8 @@ interface ProjectDetails {
 
 export const Projects = () => {
   const t = useTranslations("projects");
+  const [showAll, setShowAll] = useState(false);
+  const INITIAL_PROJECTS_COUNT = 2;
 
   const getProjectDetails = (
     key: "financeAI" | "retroGameList" | "spaceInvaders" | "agras" | "mcdsimulator" | "BRASFI" | "fuxico"
@@ -106,14 +109,24 @@ export const Projects = () => {
     },
   ];
 
+  const displayedProjects = showAll 
+    ? projects 
+    : projects.slice(0, INITIAL_PROJECTS_COUNT);
+
   return (
     <section className="section-wrapper" id="projects">
       <SectionHeader title={t("title")} dir="r" />
       <div className="grid gap-12 grid-cols-1 md:grid-cols-2">
-        {projects.map((project) => {
+        {displayedProjects.map((project) => {
           return <Project key={project.title} {...project} />;
         })}
       </div>
+      {projects.length > INITIAL_PROJECTS_COUNT && (
+        <ShowMoreButton 
+          onClick={() => setShowAll(!showAll)} 
+          showAll={showAll}
+        />
+      )}
     </section>
   );
 };

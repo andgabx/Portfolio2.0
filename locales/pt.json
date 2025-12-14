@@ -29,6 +29,8 @@
         "projectLinks": "Links do Projeto",
         "sourceCode": "Código Fonte",
         "liveProject": "Projeto Online",
+        "showAll": "Mostrar todos os projetos",
+        "showLess": "Mostrar menos projetos",
         "financeAI": {
             "title": "Finance AI",
             "description": "Um gerenciador de transações para suas finanças pessoais com um assistente de IA para ajudar você a gerenciar suas finanças.",
