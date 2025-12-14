@@ -19,7 +19,7 @@
     "about": {
         "title": "About",
         "firstParagraph": "or as long as I can remember, Computer Science has been my dream career. When I discovered the world of software development, I knew I had found my path. While hardware is interesting, my passion has always leaned towards software, especially front-end development. There's something about seeing a beautifully built, responsive website that has always caught my attention and made me want to create my own. Currently, I'm working on a very interesting solo project, trying to rebuild a School Management System. When I'm not coding, you'll probably find me on the mat practicing Jiu-Jitsu, reading a good book, or hanging out with friends.",
-        "secondParagraph": "Currently, I'm focused on developing my skills in React, Next.js, Tailwind CSS, and TypeScript, as well as learning about the main technologies used in the backend, such as Node.js, Express, and PostgreSQL.",
+        "secondParagraph": "Currently, I'm focused on developing my skills needed in the internship, such as Swift, Kotlin and C.",
         "mainTech": "Main Technologies",
         "otherTech": "Other Technologies"
     },
