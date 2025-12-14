@@ -105,6 +105,15 @@
             "description": "MVP de uma plataforma e-commerce focada em blindboxes criadas por artistas locais para despertar novos hobbies criativos.",
             "tech0": "NextJS",
             "detail0": "Fuxico é um MVP de uma plataforma e-commerce desenvolvida para conectar pessoas a novos hobbies através de blindboxes criadas por artistas locais. O projeto apresenta uma interface vibrante e moderna, com design responsivo e foco na experiência do usuário. A plataforma oferece uma experiência única onde cada caixa contém uma surpresa que conecta os usuários a uma nova forma de fazer arte."
+        },
+        "statisticsgame": {
+            "title": "Blackjack",
+            "description": "Um jogo educativo focado em estatísticas, combinando diversão e aprendizado de conceitos estatísticos.",
+            "tech0": "NextJS",
+            "tech1": "TypeScript",
+            "tech2": "Tailwind",
+            "tech3": "Phaser",
+            "detail0": "Blackjack é um jogo desenvolvido para tornar o aprendizado de estatísticas mais envolvente e interativo. O projeto combina elementos de gamificação com conceitos estatísticos fundamentais, permitindo que os jogadores aprendam enquanto se divertem. A interface foi projetada para ser intuitiva e acessível, tornando os conceitos estatísticos mais compreensíveis através de atividades práticas e desafios interativos."
         }
     },
     "experience": {
@@ -127,7 +136,14 @@
                 "position": "Desenvolvedor Full Stack",
                 "time": "Janeiro 2025 - Junho 2025",
                 "location": "Salvador, Bahia",
-                "description": "Fomos contratados pela BRASFI, uma aliança multidisciplinar focada em finanças e investimentos sustentáveis. Nosso objetivo foi desenvolver uma plataforma web robusta para que pudessem divulgar conteúdo sobre desenvolvimento sustentável para seus membros em comunidades específicas. Um requisito chave foi a implementação de um chat privado e em tempo real, permitindo a comunicação eficiente entre os membros dentro de suas respectivas comunidades. Graças à colaboração contínua do cliente e à comunicação eficaz de nossas equipes de desenvolvimento e design, entregamos uma solução que apoia diretamente a missão da BRASFI de promover o desenvolvimento sustentável."
+                "description": "Fomos contratados pela BRASFI, uma aliança multidisciplinar focada em finanças e investimentos sustentáveis. Nosso objetivo foi desenvolver uma plataforma web robusta para que pudessem divulgar conteúdo sobre desenvolvimento sustentável para seus membros em comunidades específicas. Um requisito chave foi a implementação de um chat privado e em tempo real, permitindo a comunicação eficiente entre os membros dentro de suas respectivas comunidades. Graças à colaboração contínua do cliente e à comunicação eficaz de nossas equipes de desenvolvimento e design, entregamos uma solução que apoia diretamente a missão da BRASFI de promover o desenvolvimento sustentável.",
+                "tech0": "C#",
+                "tech1": "ASP.NET Core",
+                "tech2": "Entity Framework Core",
+                "tech3": "PostgreSQL",
+                "tech4": "Next.js",
+                "tech5": "TypeScript",
+                "tech6": "Tailwind"
             },
             "2": {
                 "title": "CESAR",

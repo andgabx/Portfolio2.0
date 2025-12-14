@@ -17,7 +17,7 @@ export const Projects = () => {
   const INITIAL_PROJECTS_COUNT = 2;
 
   const getProjectDetails = (
-    key: "financeAI" | "retroGameList" | "spaceInvaders" | "agras" | "mcdsimulator" | "BRASFI" | "fuxico"
+    key: "financeAI" | "retroGameList" | "spaceInvaders" | "agras" | "mcdsimulator" | "BRASFI" | "fuxico" | "statisticsgame"
   ): ProjectDetails => {
     const details = [];
     let i = 0;
@@ -48,6 +48,7 @@ export const Projects = () => {
   const mcdsimulatorDetails = getProjectDetails("mcdsimulator");
   const brasfiDetails = getProjectDetails("BRASFI");
   const fuxicoDetails = getProjectDetails("fuxico");
+  const statisticsgameDetails = getProjectDetails("statisticsgame");
 
   const createModalContent = (details: string[]) => (
     <>
@@ -106,6 +107,13 @@ export const Projects = () => {
       code: "https://github.com/andgabx/Fuxico-MVP",
       projectLink: "https://fuxico.vercel.app/",
       modalContent: createModalContent(fuxicoDetails.details),
+    },
+    {
+      ...statisticsgameDetails,
+      imgSrc: "/statisticsgame.png",
+      code: "https://github.com/andgabx/Blackjack",
+      projectLink: "",
+      modalContent: createModalContent(statisticsgameDetails.details),
     },
   ];
 

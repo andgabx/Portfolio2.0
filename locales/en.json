@@ -104,6 +104,15 @@
             "description": "MVP of an e-commerce platform focused on blindboxes created by local artists to awaken new creative hobbies.",
             "tech0": "NextJS",
             "detail0": "Fuxico is an MVP of an e-commerce platform developed to connect people to new hobbies through blindboxes created by local artists. The project features a vibrant and modern interface with responsive design and focus on user experience. The platform offers a unique experience where each box contains a surprise that connects users to a new way of making art."
+        },
+        "statisticsgame": {
+            "title": "Blackjack",
+            "description": "A game focused on statistics, combining fun and learning of statistical concepts.",
+            "tech0": "NextJS",
+            "tech1": "TypeScript",
+            "tech2": "Tailwind",
+            "tech3": "Phaser",
+            "detail0": "Blackjack is a game developed to make learning statistics more engaging and interactive. The project combines gamification elements with fundamental statistical concepts, allowing players to learn while having fun. The interface was designed to be intuitive and accessible, making statistical concepts more understandable through hands-on activities and interactive challenges."
         }
     },
     "experience": {
