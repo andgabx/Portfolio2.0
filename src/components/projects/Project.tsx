@@ -81,23 +81,27 @@ export const Project = ({
                             </h4>
                             <div className="w-full h-[1px] bg-zinc-600" />
 
-                            <Link
-                                href={code}
-                                target="_blank"
-                                rel="nofollow"
-                                aria-label={`Ver código fonte do projeto ${title} no GitHub`}
-                            >
-                                <AiFillGithub className="text-xl text-zinc-300 hover:text-primary-dark transition-colors" />
-                            </Link>
+                            {code && (
+                                <Link
+                                    href={code}
+                                    target="_blank"
+                                    rel="nofollow"
+                                    aria-label={`Ver código fonte do projeto ${title} no GitHub`}
+                                >
+                                    <AiFillGithub className="text-xl text-zinc-300 hover:text-primary-dark transition-colors" />
+                                </Link>
+                            )}
 
-                            <Link
-                                href={projectLink}
-                                target="_blank"
-                                rel="nofollow"
-                                aria-label={`Visitar o projeto ${title}`}
-                            >
-                                <AiOutlineExport className="text-xl text-zinc-300 hover:text-primary-dark transition-colors" />
-                            </Link>
+                            {projectLink && (
+                                <Link
+                                    href={projectLink}
+                                    target="_blank"
+                                    rel="nofollow"
+                                    aria-label={`Visitar o projeto ${title}`}
+                                >
+                                    <AiOutlineExport className="text-xl text-zinc-300 hover:text-primary-dark transition-colors" />
+                                </Link>
+                            )}
                         </div>
                     </Reveal>
                     <Reveal>

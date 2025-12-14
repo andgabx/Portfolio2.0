@@ -18,12 +18,15 @@ export const Stats = () => {
             <Chip>TypeScript</Chip>
             <Chip>React</Chip>
             <Chip>Next.js</Chip>
-            <Chip>Tailwind CSS</Chip>
             <Chip>Express</Chip>
             <Chip>Postgres</Chip>
             <Chip>GitHub</Chip>
             <Chip>Prisma</Chip>
             <Chip>Clerk</Chip>
+            <Chip>Swift</Chip>
+            <Chip>Kotlin</Chip>
+            <Chip>Entity Framework Core</Chip>
+            <Chip>Nest.js</Chip>
           </div>
         </div>
       </Reveal>

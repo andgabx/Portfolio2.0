@@ -97,6 +97,12 @@
             "tech6": "PostgreSQL",
             "tech7": "Docker",
             "detail0": "Uma plataforma de comunidade modular e escalável. Ela foi criada para gerenciar grupos, permitir comunicação em tempo real via chat, além de organizar informações com feeds de notícias e eventos. A Perenne inclui funcionalidades de moderação de usuários e um robusto sistema de autenticação e gerenciamento de grupos. Futuramente, planejamos adicionar mais reações, enquetes, eventos com lembretes, notificações avançadas e uploads de arquivos multimídia. "
+        },
+        "fuxico": {
+            "title": "Fuxico",
+            "description": "MVP de uma plataforma e-commerce focada em blindboxes criadas por artistas locais para despertar novos hobbies criativos.",
+            "tech0": "NextJS",
+            "detail0": "Fuxico é um MVP de uma plataforma e-commerce desenvolvida para conectar pessoas a novos hobbies através de blindboxes criadas por artistas locais. O projeto apresenta uma interface vibrante e moderna, com design responsivo e foco na experiência do usuário. A plataforma oferece uma experiência única onde cada caixa contém uma surpresa que conecta os usuários a uma nova forma de fazer arte."
         }
     },
     "experience": {
@@ -123,7 +129,7 @@
             },
             "2": {
                 "title": "CESAR",
-                "position": "Estagiário de Desenvolvimento Full Stack",
+                "position": "Estagiário em Desenvolvimento Full Stack",
                 "time": "Agosto 2025 - Presente",
                 "location": "Recife, Pernambuco",
                 "description": "Trabalho no CESAR, uma organização de inovação e educação reconhecida nacionalmente. Como desenvolvedor Full Stack, contribuo para o desenvolvimento de soluções tecnológicas inovadoras, trabalhando com tecnologias mobile e sistemas de baixo nível. O ambiente dinâmico e colaborativo do CESAR permite que eu participe de projetos desafiadores, desde aplicações móveis até sistemas embarcados, sempre com foco em qualidade, inovação e melhores práticas de desenvolvimento.",

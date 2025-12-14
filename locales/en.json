@@ -96,6 +96,12 @@
             "tech5": "PostgreSQL",
             "tech6": "Docker",
             "detail0": "A scalable community platform. It was created to manage groups, allow real-time communication via chat, and organize information with news feeds and events. Perenne includes user moderation features and a robust authentication and group management system. In the future, we plan to add more reactions, polls, events with reminders, advanced notifications, and multimedia uploads."
+        },
+        "fuxico": {
+            "title": "Fuxico",
+            "description": "MVP of an e-commerce platform focused on blindboxes created by local artists to awaken new creative hobbies.",
+            "tech0": "NextJS",
+            "detail0": "Fuxico is an MVP of an e-commerce platform developed to connect people to new hobbies through blindboxes created by local artists. The project features a vibrant and modern interface with responsive design and focus on user experience. The platform offers a unique experience where each box contains a surprise that connects users to a new way of making art."
         }
     },
     "experience": {

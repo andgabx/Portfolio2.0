@@ -14,7 +14,7 @@ export const Projects = () => {
   const t = useTranslations("projects");
 
   const getProjectDetails = (
-    key: "financeAI" | "retroGameList" | "spaceInvaders" | "agras" | "mcdsimulator" | "BRASFI"
+    key: "financeAI" | "retroGameList" | "spaceInvaders" | "agras" | "mcdsimulator" | "BRASFI" | "fuxico"
   ): ProjectDetails => {
     const details = [];
     let i = 0;
@@ -44,6 +44,7 @@ export const Projects = () => {
   const agrasDetails = getProjectDetails("agras");
   const mcdsimulatorDetails = getProjectDetails("mcdsimulator");
   const brasfiDetails = getProjectDetails("BRASFI");
+  const fuxicoDetails = getProjectDetails("fuxico");
 
   const createModalContent = (details: string[]) => (
     <>
@@ -95,6 +96,13 @@ export const Projects = () => {
       code: "https://github.com/filipe-ms/Perenne-Backend",
       projectLink: "https://perenne-gray.vercel.app/",
       modalContent: createModalContent(brasfiDetails.details),
+    },
+    {
+      ...fuxicoDetails,
+      imgSrc: "/fuxico.png",
+      code: "https://github.com/andgabx/Fuxico-MVP",
+      projectLink: "https://fuxico.vercel.app/",
+      modalContent: createModalContent(fuxicoDetails.details),
     },
   ];
 

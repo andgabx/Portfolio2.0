@@ -71,29 +71,35 @@ export const ProjectModal = ({
             {modalContent}
           </div>
 
-          <div className="mt-8">
-            <p className="font-bold mb-4 text-xl text-white">
-              {t("projectLinks")}
-            </p>
-            <div className="flex items-center gap-6 text-md">
-              <Link
-                target="_blank"
-                rel="nofollow"
-                className="text-slate-200 hover:text-white transition-colors flex items-center gap-2"
-                href={code}
-              >
-                <AiFillGithub className="text-xl" /> {t("sourceCode")}
-              </Link>
-              <Link
-                target="_blank"
-                rel="nofollow"
-                className="text-slate-200 hover:text-white transition-colors flex items-center gap-2"
-                href={projectLink}
-              >
-                <AiOutlineExport className="text-xl" /> {t("liveProject")}
-              </Link>
+          {(code || projectLink) && (
+            <div className="mt-8">
+              <p className="font-bold mb-4 text-xl text-white">
+                {t("projectLinks")}
+              </p>
+              <div className="flex items-center gap-6 text-md">
+                {code && (
+                  <Link
+                    target="_blank"
+                    rel="nofollow"
+                    className="text-slate-200 hover:text-white transition-colors flex items-center gap-2"
+                    href={code}
+                  >
+                    <AiFillGithub className="text-xl" /> {t("sourceCode")}
+                  </Link>
+                )}
+                {projectLink && (
+                  <Link
+                    target="_blank"
+                    rel="nofollow"
+                    className="text-slate-200 hover:text-white transition-colors flex items-center gap-2"
+                    href={projectLink}
+                  >
+                    <AiOutlineExport className="text-xl" /> {t("liveProject")}
+                  </Link>
+                )}
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </motion.div>
     </div>
