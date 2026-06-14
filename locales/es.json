@@ -1,0 +1,166 @@
+{
+    "common": {
+        "title": "Mi Portafolio",
+        "description": "Bienvenido a mi portafolio",
+        "resume": "Mi Currículum"
+    },
+    "nav": {
+        "about": "Sobre mí",
+        "projects": "Proyectos",
+        "experience": "Experiencia",
+        "contact": "Contacto"
+    },
+    "hero": {
+        "role": "Soy un",
+        "position": "Desarrollador Full Stack",
+        "description": "Como Desarrollador Full Stack, me especializo en crear interfaces de usuario visualmente impresionantes y altamente interactivas. Con un ojo agudo para el diseño y una comprensión de las tecnologías web modernas, transformo ideas en experiencias digitales intuitivas y atractivas.",
+        "contact": "Contáctame"
+    },
+    "about": {
+        "title": "Sobre mí",
+        "firstParagraph": "esde que tengo memoria, las Ciencias de la Computación han sido mi carrera soñada. Cuando descubrí el mundo del desarrollo de software, supe que había encontrado mi camino. Aunque el hardware es interesante, mi pasión siempre se inclinó hacia el software, especialmente el desarrollo front-end. Hay algo en ver un sitio web hermosamente construido y responsivo que siempre llamó mi atención y me hizo querer crear el mío propio. Actualmente, estoy trabajando en un proyecto individual muy interesante, intentando reconstruir un Sistema de Gestión Escolar. Cuando no estoy programando, probablemente me encontrarás en el tatami practicando Jiu-Jitsu, leyendo un buen libro o saliendo con amigos.",
+        "secondParagraph": "Actualmente estoy enfocado en desarrollar mis habilidades necesarias en la pasantía, como Swift, Kotlin y C.",
+        "mainTech": "Tecnologías Principales",
+        "otherTech": "Otras Tecnologías"
+    },
+    "projects": {
+        "title": "Proyectos",
+        "learnMore": "Saber más",
+        "projectLinks": "Enlaces del Proyecto",
+        "sourceCode": "Código Fuente",
+        "liveProject": "Proyecto en Vivo",
+        "showAll": "Mostrar todos los proyectos",
+        "showLess": "Mostrar menos proyectos",
+        "financeAI": {
+            "title": "Finance AI",
+            "description": "Un gestor de transacciones para tus finanzas personales con un asistente de IA para ayudarte a gestionar tu dinero.",
+            "tech0": "NextJS",
+            "tech1": "React",
+            "tech2": "Tailwind",
+            "tech3": "Prisma",
+            "tech4": "Clerk",
+            "tech5": "Neon Postgres",
+            "detail0": "Los usuarios pueden registrar sus transacciones de forma continua, ya sea un gasto, ingreso o inversión. Cada entrada puede categorizarse en grupos definidos por el usuario, permitiendo un análisis claro de las actividades financieras. Si se comete un error o una transacción ya no es relevante, la función de eliminación garantiza que los datos permanezcan limpios y precisos.",
+            "detail1": "El proyecto también se enfoca en la visualización de datos, permitiendo a los usuarios rastrear sus patrones de gastos, identificar oportunidades de ahorro y obtener información sobre su salud financiera a través de gráficos y resúmenes.",
+            "detail2": "Cada función de Finance AI fue construida con un objetivo en mente: capacitar a los usuarios para tomar decisiones financieras informadas de manera fácil, eficiente y segura."
+        },
+        "retroGameList": {
+            "title": "My RetroGameList",
+            "description": "Una plataforma dedicada a los entusiastas de los videojuegos retro, que permite explorar juegos, crear listas personalizadas, interactuar en foros y compartir reseñas.",
+            "tech0": "HTML",
+            "tech1": "CSS",
+            "tech2": "JavaScript",
+            "tech3": "Tailwind",
+            "tech4": "Anime.js",
+            "tech5": "Azure",
+            "detail0": "Este sitio es una plataforma única diseñada para que los entusiastas de los videojuegos retro se conecten, exploren e interactúen. Los usuarios pueden navegar por una colección curada de juegos retro y crear listas personalizadas como 'Favoritos', 'Jugados' y 'Quiero Jugar' para seguir sus preferencias de juego.",
+            "detail1": "También cuenta con un sistema de foros donde los usuarios pueden participar en discusiones, hacer preguntas y compartir sus experiencias. Además, el sitio integra funciones interactivas como modales para retroalimentación sobre acciones como agregar o eliminar juegos de las listas.",
+            "detail2": "Diseñada con la experiencia del usuario en mente, la plataforma emplea componentes reutilizables, un diseño visual consistente y funcionalidades bien estructuradas para garantizar la facilidad de uso."
+        },
+        "spaceInvaders": {
+            "title": "Space Invaders",
+            "description": "Una versión roguelike del clásico juego Space Invaders.",
+            "tech0": "Raylib",
+            "tech1": "C",
+            "detail0": "Desarrollamos una versión roguelike del clásico Space Invaders, donde los jugadores enfrentan oleadas de enemigos, suben de nivel y obtienen mejoras hasta llegar al jefe final.",
+            "detail1": "El juego presenta una selección de diferentes naves, cada una con habilidades únicas, garantizando que cada experiencia de juego sea nueva y distinta. Esta versión combina el encanto nostálgico del Space Invaders original con elementos modernos de roguelike.",
+            "detail2": "El resultado es una experiencia atractiva que equilibra la estética retro con mecánicas innovadoras, ¡convirtiéndolo en un imperdible tanto para los fanáticos del original como para los nuevos en el género!"
+        },
+        "agras": {
+            "title": "AGRAS (En desarrollo)",
+            "description": "Un sitio web para una empresa del sector agrícola.",
+            "tech0": "NextJS",
+            "tech1": "TypeScript",
+            "tech2": "Tailwind",
+            "tech3": "Supabase",
+            "detail0": "Este es un sitio web sencillo para una empresa del sector agrícola. Fue creado para mostrar los productos y servicios de la empresa a clientes potenciales. El sitio está construido con NextJS, TypeScript, Tailwind y Supabase, y es totalmente responsivo."
+        },
+        "mcdsimulator": {
+            "title": "Simulador de McDonald's",
+            "description": "Un simulador sencillo para un restaurante de comida rápida.",
+            "tech0": "React",
+            "tech1": "TypeScript",
+            "tech2": "Tailwind",
+            "tech3": "Prisma",
+            "tech4": "Neon DB",
+            "detail0": "Este proyecto es un simulador sencillo para un restaurante de comida rápida. Permite a los usuarios seleccionar elementos de un menú, agregarlos al carrito y realizar un pedido. El simulador también incluye una vista de cocina donde los empleados pueden ver los pedidos entrantes y marcarlos como completados.",
+            "detail1": "El objetivo fue crear una interfaz fácil de usar que imite la experiencia de pedir comida en un restaurante de comida rápida. Al proporcionar una representación visual del proceso de pedido, los usuarios pueden navegar fácilmente por el menú y rastrear el estado de su pedido en tiempo real.",
+            "detail2": "El simulador está construido con React, TypeScript, Tailwind, Prisma y Neon Database, y cuenta con diseño responsivo, actualizaciones en tiempo real y una experiencia de usuario simple pero atractiva."
+        },
+        "BRASFI": {
+            "title": "Perenne",
+            "description": "Una plataforma comunitaria escalable.",
+            "tech0": "NextJS",
+            "tech1": "TypeScript",
+            "tech2": "Tailwind",
+            "tech3": "C#",
+            "tech4": "ASP.NET Core",
+            "tech5": "Entity Framework Core",
+            "tech6": "PostgreSQL",
+            "tech7": "Docker",
+            "detail0": "Una plataforma comunitaria modular y escalable creada para gestionar grupos, permitir la comunicación en tiempo real vía chat y organizar información con feeds de noticias y eventos. Perenne incluye funciones de moderación de usuarios y un robusto sistema de autenticación. En el futuro, planeamos agregar más reacciones, encuestas, eventos con recordatorios, notificaciones avanzadas y cargas multimedia."
+        },
+        "fuxico": {
+            "title": "Fuxico",
+            "description": "MVP de una plataforma de e-commerce enfocada en blindboxes creadas por artistas locales para despertar nuevos hobbies creativos.",
+            "tech0": "NextJS",
+            "detail0": "Fuxico es un MVP de una plataforma de e-commerce desarrollada para conectar personas a nuevos hobbies a través de blindboxes creadas por artistas locales. El proyecto presenta una interfaz vibrante y moderna con diseño responsivo y enfoque en la experiencia del usuario."
+        },
+        "statisticsgame": {
+            "title": "Blackjack",
+            "description": "Un juego educativo enfocado en estadísticas, combinando diversión y aprendizaje de conceptos estadísticos.",
+            "tech0": "NextJS",
+            "tech1": "TypeScript",
+            "tech2": "Tailwind",
+            "tech3": "Phaser",
+            "detail0": "Blackjack es un juego desarrollado para hacer el aprendizaje de estadísticas más atractivo e interactivo. El proyecto combina elementos de gamificación con conceptos estadísticos fundamentales, permitiendo a los jugadores aprender mientras se divierten."
+        }
+    },
+    "experience": {
+        "title": "Experiencia",
+        "items": {
+            "0": {
+                "title": "Cais",
+                "position": "Desarrollador Full Stack",
+                "time": "Agosto 2024 - Diciembre 2024",
+                "location": "Carpina, Pernambuco",
+                "description": "Fuimos contratados por Cais, un pequeño grupo de agricultores, para crear una aplicación web para gestionar su granja, que nombramos Rizoma. La aplicación permitía a los usuarios organizar, monitorear y editar información relacionada con campos, suelos, plantas cultivadas y actividades realizadas en el entorno rural.",
+                "tech0": "HTML",
+                "tech1": "Tailwind",
+                "tech2": "JavaScript",
+                "tech3": "Django",
+                "tech4": "Git"
+            },
+            "1": {
+                "title": "BRASFI",
+                "position": "Desarrollador Full Stack",
+                "time": "Enero 2025 - Junio 2025",
+                "location": "Salvador, Bahia",
+                "description": "Fuimos contratados por BRASFI, una alianza multidisciplinaria enfocada en finanzas e inversiones sostenibles. Nuestro objetivo fue desarrollar una plataforma web robusta para difundir contenido sobre desarrollo sostenible entre sus miembros en comunidades específicas. Un requisito clave fue la implementación de un chat privado en tiempo real.",
+                "tech0": "C#",
+                "tech1": "ASP.NET Core",
+                "tech2": "Entity Framework Core",
+                "tech3": "PostgreSQL",
+                "tech4": "Next.js",
+                "tech5": "TypeScript",
+                "tech6": "Tailwind"
+            },
+            "2": {
+                "title": "CESAR",
+                "position": "Pasante en Desarrollo Full Stack",
+                "time": "Agosto 2025 - Presente",
+                "location": "Recife, Pernambuco",
+                "description": "Trabajo en CESAR, una organización de innovación y educación reconocida a nivel nacional. Como Desarrollador Full Stack, contribuyo al desarrollo de soluciones tecnológicas innovadoras, trabajando con tecnologías móviles y sistemas de bajo nivel.",
+                "tech0": "Swift",
+                "tech1": "Kotlin",
+                "tech2": "C"
+            }
+        }
+    },
+    "contact": {
+        "title": "¡Ponte en contacto!",
+        "description": "¡Envíame un correo si quieres conectar! También puedes encontrarme en",
+        "linkedin": "Linkedin",
+        "email": "agvmdsa@gmail.com"
+    }
+}

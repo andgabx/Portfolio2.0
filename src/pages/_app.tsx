@@ -7,10 +7,14 @@ import { AbstractIntlMessages } from "next-intl";
 // Import das traduções
 import en from "../../locales/en.json";
 import pt from "../../locales/pt.json";
+import es from "../../locales/es.json";
+import de from "../../locales/de.json";
 
 const messages = {
   en,
   pt,
+  es,
+  de,
 } as unknown as Record<string, AbstractIntlMessages>;
 
 export default function App({ Component, pageProps }: AppProps) {
