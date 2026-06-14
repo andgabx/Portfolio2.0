@@ -13,7 +13,7 @@ export const HomePage = () => {
       <SideBar />
       <main>
         <Header />
-        <div className="mx-auto max-w-5xl px-4 px-8 space-y-32 pb-24">
+        <div className="mx-auto max-w-5xl px-4 px-8 space-y-32 pb-24 pt-[72px]">
           <Hero />
           <About />
           <Projects />

@@ -17,7 +17,7 @@ export const Header = () => {
             initial={{ y: -70 }}
             animate={{ y: 0 }}
             transition={{ duration: 0.5 }}
-            className="h-[72px] pl-8 pr-6 flex items-center justify-between sticky top-0 z-20 bg-primary backdrop-blur-md"
+            className="h-[72px] pl-8 pr-6 flex items-center justify-between fixed top-0 left-[54px] right-0 z-20 bg-primary backdrop-blur-md"
         >
             <MyLinks />
             <div className="flex items-center gap-4">
