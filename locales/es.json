@@ -66,15 +66,6 @@
             "detail1": "El juego presenta una selección de diferentes naves, cada una con habilidades únicas, garantizando que cada experiencia de juego sea nueva y distinta. Esta versión combina el encanto nostálgico del Space Invaders original con elementos modernos de roguelike.",
             "detail2": "El resultado es una experiencia atractiva que equilibra la estética retro con mecánicas innovadoras, ¡convirtiéndolo en un imperdible tanto para los fanáticos del original como para los nuevos en el género!"
         },
-        "agras": {
-            "title": "AGRAS (En desarrollo)",
-            "description": "Un sitio web para una empresa del sector agrícola.",
-            "tech0": "NextJS",
-            "tech1": "TypeScript",
-            "tech2": "Tailwind",
-            "tech3": "Supabase",
-            "detail0": "Este es un sitio web sencillo para una empresa del sector agrícola. Fue creado para mostrar los productos y servicios de la empresa a clientes potenciales. El sitio está construido con NextJS, TypeScript, Tailwind y Supabase, y es totalmente responsivo."
-        },
         "mcdsimulator": {
             "title": "Simulador de McDonald's",
             "description": "Un simulador sencillo para un restaurante de comida rápida.",

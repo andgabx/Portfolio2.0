@@ -66,15 +66,6 @@
             "detail1": "Das Spiel bietet eine Auswahl verschiedener Raumschiffe, jedes mit einzigartigen Fähigkeiten, sodass jede Spielerfahrung neu und einzigartig ist. Diese Version verbindet den nostalgischen Charme des originalen Space Invaders mit modernen Roguelike-Elementen.",
             "detail2": "Das Ergebnis ist ein fesselndes Erlebnis, das Retro-Ästhetik mit innovativer Spielmechanik verbindet – ein Muss sowohl für Fans des Originals als auch für Neulinge im Genre!"
         },
-        "agras": {
-            "title": "AGRAS (In Entwicklung)",
-            "description": "Eine Website für ein Unternehmen im Agrarsektor.",
-            "tech0": "NextJS",
-            "tech1": "TypeScript",
-            "tech2": "Tailwind",
-            "tech3": "Supabase",
-            "detail0": "Dies ist eine einfache Website für ein Unternehmen im Agrarsektor. Sie wurde erstellt, um die Produkte und Dienstleistungen des Unternehmens potenziellen Kunden zu präsentieren. Die Website ist mit NextJS, TypeScript, Tailwind und Supabase erstellt und vollständig responsiv."
-        },
         "mcdsimulator": {
             "title": "McDonald's Simulator",
             "description": "Ein einfacher Simulator für ein Fast-Food-Restaurant.",

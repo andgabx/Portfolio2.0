@@ -17,7 +17,7 @@ export const Projects = () => {
   const INITIAL_PROJECTS_COUNT = 2;
 
   const getProjectDetails = (
-    key: "financeAI" | "retroGameList" | "spaceInvaders" | "agras" | "mcdsimulator" | "BRASFI" | "fuxico" | "statisticsgame"
+    key: "financeAI" | "retroGameList" | "spaceInvaders" | "mcdsimulator" | "BRASFI" | "fuxico" | "statisticsgame"
   ): ProjectDetails => {
     const details = [];
     let i = 0;
@@ -44,7 +44,6 @@ export const Projects = () => {
   const financeAIDetails = getProjectDetails("financeAI");
   const retroGameListDetails = getProjectDetails("retroGameList");
   const spaceInvadersDetails = getProjectDetails("spaceInvaders");
-  const agrasDetails = getProjectDetails("agras");
   const mcdsimulatorDetails = getProjectDetails("mcdsimulator");
   const brasfiDetails = getProjectDetails("BRASFI");
   const fuxicoDetails = getProjectDetails("fuxico");
@@ -86,13 +85,6 @@ export const Projects = () => {
       code: "https://github.com/andgabx/donald-simulator",
       projectLink: "https://gabemcdsimulator.vercel.app/fsw-donalds/",
       modalContent: createModalContent(mcdsimulatorDetails.details),
-    },
-    {
-      ...agrasDetails,
-      imgSrc: "/agras.jpg",
-      code: "https://github.com/andgabx/agras",
-      projectLink: "https://github.com/andgabx/agras",
-      modalContent: createModalContent(agrasDetails.details),
     },
     {
       ...brasfiDetails,
