@@ -111,32 +111,6 @@
         "title": "Experiencia",
         "items": {
             "0": {
-                "title": "Cais",
-                "position": "Desarrollador Full Stack",
-                "time": "Agosto 2024 - Diciembre 2024",
-                "location": "Carpina, Pernambuco",
-                "description": "Fuimos contratados por Cais, un pequeño grupo de agricultores, para crear una aplicación web para gestionar su granja, que nombramos Rizoma. La aplicación permitía a los usuarios organizar, monitorear y editar información relacionada con campos, suelos, plantas cultivadas y actividades realizadas en el entorno rural.",
-                "tech0": "HTML",
-                "tech1": "Tailwind",
-                "tech2": "JavaScript",
-                "tech3": "Django",
-                "tech4": "Git"
-            },
-            "1": {
-                "title": "BRASFI",
-                "position": "Desarrollador Full Stack",
-                "time": "Enero 2025 - Junio 2025",
-                "location": "Salvador, Bahia",
-                "description": "Fuimos contratados por BRASFI, una alianza multidisciplinaria enfocada en finanzas e inversiones sostenibles. Nuestro objetivo fue desarrollar una plataforma web robusta para difundir contenido sobre desarrollo sostenible entre sus miembros en comunidades específicas. Un requisito clave fue la implementación de un chat privado en tiempo real.",
-                "tech0": "C#",
-                "tech1": "ASP.NET Core",
-                "tech2": "Entity Framework Core",
-                "tech3": "PostgreSQL",
-                "tech4": "Next.js",
-                "tech5": "TypeScript",
-                "tech6": "Tailwind"
-            },
-            "2": {
                 "title": "CESAR",
                 "position": "Pasante en Desarrollo Full Stack",
                 "time": "Agosto 2025 - Presente",

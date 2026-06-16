@@ -111,32 +111,6 @@
         "title": "Erfahrung",
         "items": {
             "0": {
-                "title": "Cais",
-                "position": "Full Stack Entwickler",
-                "time": "August 2024 - Dezember 2024",
-                "location": "Carpina, Pernambuco",
-                "description": "Wir wurden von Cais, einer kleinen Gruppe von Bauern, beauftragt, eine Webanwendung zur Verwaltung ihres Hofes zu erstellen, die wir Rizoma nannten. Die Anwendung ermöglichte es Benutzern, Informationen zu Feldern, Böden, angebauten Pflanzen und durchgeführten Aktivitäten zu organisieren, zu überwachen und zu bearbeiten.",
-                "tech0": "HTML",
-                "tech1": "Tailwind",
-                "tech2": "JavaScript",
-                "tech3": "Django",
-                "tech4": "Git"
-            },
-            "1": {
-                "title": "BRASFI",
-                "position": "Full Stack Entwickler",
-                "time": "Januar 2025 - Juni 2025",
-                "location": "Salvador, Bahia",
-                "description": "Wir wurden von BRASFI, einer multidisziplinären Allianz für nachhaltige Finanzen und Investitionen, beauftragt. Unser Ziel war die Entwicklung einer robusten Webplattform zur Verbreitung von Inhalten über nachhaltige Entwicklung an ihre Mitglieder. Eine wichtige Anforderung war die Implementierung eines privaten Echtzeit-Chats.",
-                "tech0": "C#",
-                "tech1": "ASP.NET Core",
-                "tech2": "Entity Framework Core",
-                "tech3": "PostgreSQL",
-                "tech4": "Next.js",
-                "tech5": "TypeScript",
-                "tech6": "Tailwind"
-            },
-            "2": {
                 "title": "CESAR",
                 "position": "Praktikant Full Stack Entwicklung",
                 "time": "August 2025 - Gegenwart",
